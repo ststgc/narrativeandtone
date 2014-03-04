@@ -123,7 +123,7 @@ section
     .grid__item.one-third
       .copy.border__lighter
 
-// SHARE - Book - Email
+// SHARE - Email footer
 // - - - - - - - - - - - - - - -
 
 section#email-footer
@@ -131,6 +131,8 @@ section#email-footer
     .grid__item.one-third
       h3.section-header.section-header__lighter
         | Email footer
+      .extra__text
+        | #{data.copy.email_footer.extra_text}
 
     .grid__item.one-third
       .copy
@@ -156,6 +158,8 @@ section
       h3.section-header.section-header__lighter
         | Book
         span.share__email email
+      .extra__text
+        | #{data.copy.book.extra_text}
 
 
     .grid__item.one-third
@@ -163,6 +167,10 @@ section
         h3.section-header-sub
           | English
         p
+          span.tag__type Mine
+          | #{data.copy.tagline.en}
+        p
+          span.tag__type.tag__type--orange Other's
           | #{data.copy.tagline.en}
 
     .grid__item.one-third
@@ -170,7 +178,11 @@ section
         h3.section-header-sub
           | Japanese
         p
-          | #{data.copy.book.email.ja}
+          span.tag__type Mine
+          | #{data.copy.book.mine.email.ja}
+        p
+          span.tag__type.tag__type--orange Other's
+          | #{data.copy.book.others.email.ja}
 
 
 // SHARE - Book - Twitter
@@ -189,14 +201,22 @@ section
         h3.section-header-sub
           | English
         p
+          span.tag__type Mine
           | #{data.copy.tagline.en}
+        p
+          span.tag__type.tag__type--orange Other's
+          | #{data.copy.book.others.twitter.en}
 
     .grid__item.one-third
       .copy
         h3.section-header-sub
           | Japanese
         p
-          | #{data.copy.book.twitter.ja}
+          span.tag__type Mine
+          | #{data.copy.book.mine.twitter.ja}
+        p
+          span.tag__type.tag__type--orange Other's
+          | #{data.copy.book.others.twitter.ja}
 
 
 // SHARE - Book - Facebook
@@ -215,11 +235,21 @@ section
         h3.section-header-sub
           | English
         p
+          span.tag__type Mine
           | #{data.copy.tagline.en}
+        p
+          span.tag__type.tag__type--orange Other's
+          | #{data.copy.book.others.twitter.en}
 
     .grid__item.one-third
       .copy
         h3.section-header-sub
           | Japanese
         p
-          | #{data.copy.book.facebook.ja}
+          span.tag__type Mine
+          | #{data.copy.book.mine.facebook.ja}
+        p
+          span.tag__type.tag__type--orange Other's
+          | #{data.copy.book.others.facebook.ja}
+
+

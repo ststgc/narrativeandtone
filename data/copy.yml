@@ -3,12 +3,12 @@ about:
   extra_text: メッセージの修正する前に、Poin全体の言葉を俯瞰できるようにまとめています。ユーザーとの対話を意識して、やさしく話しかけるような言葉を選びましょう。
   quotes:
     en: In principle, anything can be improved. Anything we design today will be obsolete by next year, or five years from now, for sure. The product improves, the needs of users change. I've never found myself coming up with a solution that I know is going to last forever.
-    ja: どんなものでもいまの状態より、進化している。いま、わたしたちがデザインしているものは、いまから1年後、5年後には確実に時代遅れになっている。その頃には、プロダクトは今よりもよくなっているはずだし、ユーザーのニーズも変わるだろう。いま見いだせる答えが、この先永遠に残っているという確信は、まだ持てていない。
+    ja: どんなものでも、いまの状態より前進しているはずだ。いま、わたしたちがデザインしているものは、いまから1年後、5年後には確実に時代遅れになっている。その頃には、プロダクトは今よりもよくなっているはずだし、ユーザーのニーズも変わるだろう。いま見い出せる答えが、この先永遠に残っているという確信は、まだ持てていない。
   quotes_by: Flipboard's design chief, <a href="http://www.fastcompany.com/3017867/most-creative-people/how-flipboards-head-designer-grapples-with-the-webs-manic-pace-of-chang" target="_blank">Marcos Weskamp</a>
 
 readme:
-  en: '"See how the land lies" is a blueprint of communication that you can over view whole copies used on Poin. Do not forget copy plays important role on user interface.'
-  ja: '"See how the land lies" は、いまPoinが使うべき言葉を考えるページです。言葉は、ユーザーインターフェイスの一部であることを忘れず、たいせつにチューニングしましょう。'
+  en: "<strong>See how the land lies</strong> is a cheatsheet of Poin's tone & manner. You can over view whole copies used on Poin. Do not forget copy plays important role on your user interface."
+  ja: <strong>See how the land lies</strong> は、いまPoinが使うべき言葉を考えるページです。言葉は、ユーザーインターフェイスの一部であることを忘れず、たいせつにチューニングしましょう。
 
 subtitle:
   en: PHOTO DIARY for Discovery
@@ -20,27 +20,46 @@ tagline:
 
 
 email_footer:
+  extra_text: "- Book<br>- Page<br>- Profile<br>- Bookshelf<br>- index.html"
   en:
   ja: 「想いをつづる、写真日記」<br>ちょっとした発見や、自分の時間を大切にする人たちの<br>「みつける」アプリです。<br><br>App Store:<br>http://poin.co/r/appstore?sc=ea<br><br>http://poin.co
 
 
 
 book:
+  extra_text: "- My book<br>- Other's book"
+  mine:
+    email:
+      en:
+      ja: <strong>ちゃりん</strong>さんの「<strong>大学二年生</strong>」ブックを共有します。<br><br>私の全力の一年。<br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br><a href="#email-footer">Email footer</a>
+
+    twitter:
+      en:
+      ja: &twitter-mine-ja
+        "私の「<strong>大学二年生</strong>」ブックを #Poin から共有します。"
+
+    facebook:
+      en:
+      ja: *twitter-mine-ja
+  others:
+    email:
+      en:
+      ja: 私の「<strong>大学二年生</strong>」ブックを共有します。<br><br>私の全力の一年。<br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br><a href="#email-footer">Email footer</a>
+
+    twitter:
+      en:
+      ja: &twitter-others-ja
+        "<strong>ちゃんり</strong>さんの「<strong>大学二年生</strong>」ブックを #Poin から共有します。"
+
+    facebook:
+      en:
+      ja: *twitter-others-ja
+
+
+page:
   email:
     en:
-    ja: <strong>ちゃま</strong>さんの「<strong>Omoide</strong>」ブックを共有します。<br><br>旅の思い出♡<br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br><a href="#email-footer">Email footer</a>
-
-  twitter:
-    en:
-    ja: &twitter-ja
-      "私の「<strong>Omoide</strong>」ブックを #Poin から共有します。"
-
-  facebook:
-    en:
-    ja: *twitter-ja
-
-
-
+    ja: 'Poinから「<strong>どれみふぁ</strong>」を共有します。<br>ブック: <strong>1 5 3 cm ＊゜</strong><br>作者: <strong>hoisa＊</strong><br><br>Webでみる:<br><strong>http://www.poin.co/p/22a8Cb4KpZL?sc=ep</strong><br>Poinアプリでみる:<br><strong>poin://p/22a8Cb4KpZL</strong><br><br>---<br><br><a href="#email-footer">Email footer</a>'
 
 
 

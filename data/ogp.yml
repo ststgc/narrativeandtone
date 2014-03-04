@@ -6,7 +6,7 @@ url: &url
 title: &title
   'See how the land lies'
 description: &description
-  'Focus on your customer, and fit the words for them.'
+  "A cheatsheet of Poin's tone & manner."
 type: &type
   'company'
 locale: &locale

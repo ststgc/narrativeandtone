@@ -1,0 +1,123 @@
+//------------------------------------
+//    $TYPOGRAPHY
+//------------------------------------
+//
+// Based on the base font-size in "main.sass"
+// Set beautiful vertical rhythm followed by golden ratio.
+// http://gregrickaby.com/using-the-golden-ratio-and-rems/
+// http://www.pearsonified.com/typography/
+//
+
+h1, .alpha
+  +rem(font-size, 30px)
+  +rem(margin-bottom, $bs)
+
+  +breakpoint(lap)
+    +rem(font-size, 36px)
+
+
+
+h2,.beta
+  +rem(font-size, 24px)
+  +rem(margin-bottom, $bs)
+
+  +breakpoint(lap)
+    +rem(font-size, 30px)
+
+
+h3,.gamma
+  +rem(font-size, 18px)
+  +rem(margin-bottom, $bs)
+
+  +breakpoint(lap)
+    +rem(font-size, 20px)
+
+h4,.delta
+  +rem(font-size, 18px)
+  +rem(margin-bottom, $bs)
+
+h5,.epsilon
+  +rem(font-size, 14px)
+  +rem(margin-bottom, $bs)
+
+p
+  font-family: $bitter
+  +rem(margin-bottom, $bs)
+
+
+  &:last-child
+    margin-bottom: 0
+
+
+  +breakpoint(lap)
+    +rem(font-size, 20px)
+
+    &:last-child
+      margin-bottom: 0
+
+
+
+
+// Links
+a, [data-href]
+  color: $black
+  text-decoration: underline
+  cursor: pointer
+  +vendor(transition-property, opacity)
+  +vendor(transition-duration, .1s)
+  +vendor(transition-timing-function, ease-in-out)
+
+  &:hover,
+  &:focus
+    opacity: .5
+    text-decoration: none
+
+  &:focus
+    +tab-focus
+
+.a--plain
+  text-decoration: none
+
+
+blockquote
+  font-family: $base-font-family
+  padding-left: $bs
+  border-left: 2px solid  lighten($black,20%)
+  color: lighten($black,20%)
+
+
+
+
+hr
+  border: 0
+  height: 22px
+  +rem(margin-bottom, $bs-double)
+  +rem(margin-top, $bs-double)
+  background-image: url(/assets/images/paw.svg)
+  background-size: 28px 22px
+  background-position: center
+  background-repeat: no-repeat
+  opacity: .1
+
+
+
+
+.caps, %caps
+  text-transform: uppercase
+  letter-spacing: .05em
+
+
+
+code
+  display: inline
+  font-family: $bitter
+  +rem(font-size, 16px)
+  +rem(padding, 2px 4px)
+  +rem(margin, 0 4px)
+  border-radius: $brand-round
+
+  // taken from github
+  background-color: #f8f8f8
+  border: 1px solid #ddd
+
+

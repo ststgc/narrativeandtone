@@ -1,4 +1,3 @@
-
 about:
   extra_text: メッセージの修正する前に、Poin全体の言葉を俯瞰できるようにまとめています。ユーザーとの対話を意識して、やさしく話しかけるような言葉を選びましょう。
   quotes:
@@ -21,51 +20,125 @@ tagline:
 
 email_footer:
   extra_text: "- Book<br>- Page<br>- Profile<br>- Bookshelf<br>- index.html"
-  en:
+  en: PHOTO DIARY for Discovery<br>Poin transforms your photos & moments into beautiful stories.<br><br>App Store:<br>http://poin.co/r/appstore?sc=ea<br><br>http://poin.co
   ja: 「想いをつづる、写真日記」<br>ちょっとした発見や、自分の時間を大切にする人たちの<br>「みつける」アプリです。<br><br>App Store:<br>http://poin.co/r/appstore?sc=ea<br><br>http://poin.co
-
 
 
 book:
   extra_text: "- My book<br>- Other's book"
   mine:
     email:
-      en:
-      ja: <strong>ちゃりん</strong>さんの「<strong>大学二年生</strong>」ブックを共有します。<br><br>私の全力の一年。<br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br>#{Email footer}
+      en: Check out my "<strong>大学二年生</strong>" book made with Poin.<br><br><strong>私の全力の一年。</strong><br><br>See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}
+      ja: 私の「<strong>大学二年生</strong>」ブックを共有します。<br><br><strong>私の全力の一年。</strong><br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br>#{Email footer}
 
     twitter:
-      en:
-      ja: &twitter-mine-ja
+      en: &book-mine-twitter-en
+        "Check out my \"<strong>大学二年生</strong>\" book on #Poin"
+      ja: &book-mine-twitter-ja
         "私の「<strong>大学二年生</strong>」ブックを #Poin から共有します。"
 
     facebook:
-      en:
-      ja: *twitter-mine-ja
+      en: *book-mine-twitter-en
+      ja: *book-mine-twitter-ja
+
   others:
     email:
-      en:
-      ja: 私の「<strong>大学二年生</strong>」ブックを共有します。<br><br>私の全力の一年。<br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br>#{Email footer}
+      en: Check out <strong>ちゃりん</strong>'s "<strong>大学二年生</strong>" book made with Poin.<br><br><strong>私の全力の一年。</strong><br><br>See on Web:<br>http://www.poin.co/b/22mPRcC6jQ1?sc=eb<br><br>Open Poin:<br>poin://b/22mPRcC6jQ1<br><br>---<br><br>#{Email footer}
+      ja: <strong>ちゃりん</strong>さんの「<strong>大学二年生</strong>」ブックを共有します。<br><br><strong>私の全力の一年。</strong><br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br>#{Email footer}
 
     twitter:
-      en:
-      ja: &twitter-others-ja
+      en: &book-others-twitter-en
+        "Check out <strong>ちゃりん</strong>\'s \"<strong>大学二年生</strong>\" book on #Poin ."
+      ja: &book-others-twitter-ja
         "<strong>ちゃんり</strong>さんの「<strong>大学二年生</strong>」ブックを #Poin から共有します。"
 
     facebook:
-      en:
-      ja: *twitter-others-ja
+      en: *book-others-twitter-en
+      ja: *book-others-twitter-ja
 
 
 page:
+  extra_text: "- My page<br>- Other's page"
+  mine:
+    email:
+      en: "Check out my \"<strong>あしもと</strong>\" on Poin.<br><br>Book title: <strong>‰ fashion</strong><br>By: <strong>m o m o</strong><br>See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
+      ja: "Check out my \"<strong>あしもと</strong>\" on Poin.<br><br>Book title: <strong>‰ fashion</strong><br>By: <strong>m o m o</strong><br>See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
+
+    twitter:
+      en: &page-mine-twitter-en
+        "Check out my \"<strong>あしもと</strong>\" from the \"<strong>‰ fashion</strong>\" book on #Poin ."
+      ja: &page-mine-twitter-ja
+        "私の「<strong>あしもと</strong>」を #Poin から共有します。"
+
+    facebook:
+      en: *page-mine-twitter-en
+      ja: *page-mine-twitter-ja
+
+  others:
+    email:
+      en: "Check out <strong>m o m o</strong>\'s \"<strong>あしもと</strong>\" on Poin.<br><br>Book title: <strong>‰ fashion</strong><br>By: <strong>m o m o</strong><br>See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
+      ja: "Poinから <strong>m o m o</strong>さんの「<strong>あしもと</strong>」を共有します。<br><br>ブック: <strong>‰ fashion</strong><br>作者: <strong>m o m o</strong><br>Webでみる:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Poinアプリでみる:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
+
+    twitter:
+      en: &page-others-twitter-en
+        "Check out \"<strong>あしもと</strong>\" by <strong>m o m o</strong> in the \"<strong>‰ fashion</strong>\" book on #Poin ."
+      ja: &page-others-twitter-ja
+        "<strong>m o m o</strong>さんの「<strong>あしもと</strong>」を共有します- #Poinの「<strong>‰ fashion</strong>」ブックより。"
+
+    facebook:
+      en: *page-others-twitter-en
+      ja: *page-others-twitter-ja
+
+
+
+profile:
+  extra_text: "- My profile<br>- Other's profile"
+  mine:
+    email:
+      en: "Follow me on Poin, a cool new app.<br>My username is \"<strong>Akeko</strong>\"<br><br>Get Poin on App Store :http://poin.co/r/appstore?sc=ea<br><br> See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
+      ja: "よかったら『Poin』を一緒にやりましょう！私のユーザーネームは「<strong>Akeko</strong>」なので、フォローしてください : )<br><br>PoinアプリをApp Storeからダウンロード：<br>http://poin.co/r/appstore?sc=ea<br><br>Webでみる:<br>http://poin.co/u/QTPzh3q?sc=ea<br><br>Poinアプリでみる:<br>poin://u/QTPzh3q"
+
+    twitter:
+      en: &page-mine-twitter-en
+        "Follow me on #Poin , a cool new app. My username is \"<strong>Akeko</strong>\""
+      ja: &page-mine-twitter-ja
+        "よかったら『#Poin』を一緒にやりましょう！私のユーザーネームは「<strong>Akeko</strong>」なので、フォローしてください : )"
+
+    facebook:
+      en: *page-mine-twitter-en
+      ja: *page-mine-twitter-ja
+
+  others:
+    email:
+      en: "Check out <strong>Akeko</strong>\'s profile on Poin.<br><br>See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
+      ja: "<strong>Akeko</strong>さんのPoinのプロフィールを共有します。<br><br>Webでみる:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Poinアプリでみる:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
+
+    twitter:
+      en: &page-others-twitter-en
+        "Check out <strong>Akeko</strong>\'s profile on #Poin ."
+      ja: &page-others-twitter-ja
+        "<strong>Akeko</strong>さんのPoinのプロフィールを共有します。"
+
+    facebook:
+      en: *page-others-twitter-en
+      ja: *page-others-twitter-ja
+
+
+
+bookshelf:
   email:
-    en:
-    ja: 'Poinから「<strong>どれみふぁ</strong>」を共有します。<br>ブック: <strong>1 5 3 cm ＊゜</strong><br>作者: <strong>hoisa＊</strong><br><br>Webでみる:<br><strong>http://www.poin.co/p/22a8Cb4KpZL?sc=ep</strong><br>Poinアプリでみる:<br><strong>poin://p/22a8Cb4KpZL</strong><br><br>---<br><br><a href="#email-footer">Email footer</a>'
+    en: "Check out the Editor's Picks <strong>No. 007</strong> \"<strong>Special, to Me. </strong>\" on Poin.<br><br> See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
+    ja: "オススメブック<strong>No.007</strong>「<strong>みんなのこだわり</strong>」をPoinから共有します。<br><br>Webでみる:<br>http://poin.co/u/QTPzh3q?sc=ea<br><br>Poinアプリでみる:<br>poin://u/QTPzh3q"
 
+  twitter:
+    en: &bookshelf-twitter-en
+      "Check out the Editor\'s Picks <strong>No. 007</strong> \"<strong>Special, to Me. </strong>\" on #Poin ."
+    ja: &bookshelf-twitter-ja
+      "オススメブック<strong>No.007</strong>「<strong>みんなのこだわり</strong>」を #Poin から共有します。"
 
-
-
-
-
+  facebook:
+    en: *bookshelf-twitter-en
+    ja: *bookshelf-twitter-ja
 
 
 

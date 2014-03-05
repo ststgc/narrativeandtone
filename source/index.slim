@@ -141,7 +141,7 @@ title: index
           h3.section-header-sub
             | English
           p
-            | #{data.copy.tagline.en}
+            | #{data.copy.email_footer.en}
 
       .grid__item.one-third
         .copy
@@ -151,108 +151,28 @@ title: index
             | #{data.copy.email_footer.ja}
 
 
-  // SHARE - Book - Email
+  // SHARE - book
   // - - - - - - - - - - - - - - -
 
-  section.share.book.email
-    .grid
-      .grid__item.one-third
-        h3.section-header.section-header__lighter
-          | Book
-          span.share__email email
-        .extra__text
-          | #{data.copy.book.extra_text}
+  = partial 'share-book'
 
 
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | English
-          p
-            span.tag__type Mine
-            | #{data.copy.tagline.en}
-          p
-            span.tag__type.tag__type--orange Other's
-            | #{data.copy.tagline.en}
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | Japanese
-          p
-            span.tag__type Mine
-            | #{data.copy.book.mine.email.ja}
-          p
-            span.tag__type.tag__type--orange Other's
-            | #{data.copy.book.others.email.ja}
-
-
-  // SHARE - Book - Twitter
+  // SHARE - page
   // - - - - - - - - - - - - - - -
 
-  section.share.book.twitter
-    .grid
-      .grid__item.one-third
-        h3.section-header.section-header__lighter
-          | Book
-          span.share__twitter twitter
+  = partial 'share-page'
 
 
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | English
-          p
-            span.tag__type Mine
-            | #{data.copy.tagline.en}
-          p
-            span.tag__type.tag__type--orange Other's
-            | #{data.copy.book.others.twitter.en}
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | Japanese
-          p
-            span.tag__type Mine
-            | #{data.copy.book.mine.twitter.ja}
-          p
-            span.tag__type.tag__type--orange Other's
-            | #{data.copy.book.others.twitter.ja}
-
-
-  // SHARE - Book - Facebook
+  // SHARE - profile
   // - - - - - - - - - - - - - - -
 
-  section.share.book.facebook
-    .grid
-      .grid__item.one-third
-        h3.section-header.section-header__lighter
-          | Book
-          span.share__facebook facebook
+  = partial 'share-profile'
 
 
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | English
-          p
-            span.tag__type Mine
-            | #{data.copy.tagline.en}
-          p
-            span.tag__type.tag__type--orange Other's
-            | #{data.copy.book.others.twitter.en}
+  // SHARE - bookshelf
+  // - - - - - - - - - - - - - - -
 
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | Japanese
-          p
-            span.tag__type Mine
-            | #{data.copy.book.mine.facebook.ja}
-          p
-            span.tag__type.tag__type--orange Other's
-            | #{data.copy.book.others.facebook.ja}
+  = partial 'share-bookshelf'
 
 
   // Fail element

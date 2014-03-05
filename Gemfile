@@ -14,9 +14,9 @@ gem "builder", "~> 3.0"
 gem 'therubyracer'
 gem 'oj'
 
-# Comment out if you are using "middleman-blog" gem 
+# Comment out if you are using "middleman-blog" gem
 # https://github.com/middleman/middleman/pull/599
-gem 'tzinfo' 
+gem 'tzinfo'
 
 # Use redcarpet for github like markdown
 gem "kramdown"

@@ -2,7 +2,7 @@
 # The humans responsible & technology colophon
 
 # AUTHOR
-  Designer: Shota Setoguchi 
+  Designer: Shota Setoguchi
   Contact: ststgc@gmail.com
   Twitter: @ststgc
   From: Tokyo, Japan
@@ -14,3 +14,11 @@
   Generator: Middleman
   Deploy: Github Pages
   Editor: Sublime Text
+
+# BEM'y css
+  http://alwaystwisted.com/post.php?s=2014-02-27-even-easier-bem-ing-with-sass-33
+  http://unakravets.tumblr.com/post/64113156740/sass-3-3-at-root-bem
+  http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+  .block{} //the section of content
+  .block__element{} //an individual element inside of the content section
+  .block--modifier{} //specifically edited element pieces

@@ -13,7 +13,6 @@
 // Main container holds almost all elements
 .container
   position: relative
-  margin-right: 200px
   background-color: $white
   overflow-y: scroll
   opacity: 0
@@ -38,13 +37,20 @@ section
 
 
 // Sidebar
+.js-sidebar--open
+  .sidebar
+    display: block
+  .container
+    margin-right: 200px
+
+
 .sidebar
+  display: none
   position: absolute
   right: 0
   top: 0
   width: 200px
   min-height: 100%
-  display: block
   background-color: darken($black, 5%)
 
 .sidebar__inner

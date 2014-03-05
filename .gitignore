@@ -18,22 +18,20 @@
 
 # ignore ruby files
 *.rb
+
+*.sassc
+
+/*.cache
+*.cache
 .cache
 
-.cache/sass/19cc5124068e56dd3c509ce4f5197262f19dceca/_layouts.sassc
 
-.cache/sass/19cc5124068e56dd3c509ce4f5197262f19dceca/_layouts.sassc
+*.sassc
 
-.cache/sass/eaf13f48ea07e3bc5c2079756e88fceb6f1b3c1c/_main.sassc
+.cache/sass/19cc5124068e56dd3c509ce4f5197262f19dceca/_button.sassc
 
-.cache/sass/eaf13f48ea07e3bc5c2079756e88fceb6f1b3c1c/_main.sassc
+.cache/sass/19cc5124068e56dd3c509ce4f5197262f19dceca/_header.sassc
 
-.cache/sprockets/2adeedb298e52d76f015d6edc15b513b
+.cache/sass/19cc5124068e56dd3c509ce4f5197262f19dceca/_island.sassc
 
-.cache/sprockets/4e8867fe620022d011eaed764ca0726e
-
-.cache/sprockets/4e8867fe620022d011eaed764ca0726e
-
-.cache/sprockets/a2de2efb2cda4ba68c0c76b39e0b0391
-
-.cache/sprockets/d8ae37154b8adb87ecf57109da48194f
+.cache/sass/19cc5124068e56dd3c509ce4f5197262f19dceca/_island.sassc

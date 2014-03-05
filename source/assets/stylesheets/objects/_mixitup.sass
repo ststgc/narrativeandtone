@@ -3,10 +3,30 @@
     display: none
     opacity: 0
 
-.filter__lists
-  position: fixed
-  right: 0
 
+.filter__container
+  position: relative
+
+
+.filter__lists
+  position: relative
+  list-style: none
+  padding-left: 0
+  @extend .cf
+
+  li
+    float: left
+
+    & > ul
+      display: inline-block
+      padding-left: 0
+      @extend .cf
+
+
+.filter__btn--toggle
+  position: absolute
+  right: 0
+  +rem(top, -$bs*1.5)
 
 .filter
   &.active

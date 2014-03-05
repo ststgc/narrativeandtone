@@ -81,39 +81,5 @@
   border-radius: 0
 
 .btn--border
-  border: 2px solid $black
-
-.btn--twitter
-  border-color: $social-color-twitter
-  color: $social-color-twitter
-  +vendor(transition-property, all)
-  +vendor(transition-duration, .1s)
-  +vendor(transition-timing-function, ease-in-out)
-
-  &:hover
-    color: $black
-    border-color: $black
-
-.btn--facebook
-  @extend .btn--twitter
-  border-color: $social-color-facebook
-  color: $social-color-facebook
-
-
-.btn--email
-  @extend .btn--twitter
-  border-color: $social-color-facebook
-  color: $social-color-facebook
-
-
-
-
-
-.dark
-  .btn--twitter, .btn--facebook, .btn--email
-    border-color: $white
-    color: $white
-
-    &:hover
-      color: $white
+  border: 2px solid lighten($black, 50%)
 

@@ -5,16 +5,19 @@
 // Boxed off content
 .island,
 .islet
-	display: block
-	@extend .cf
+  display: block
+  @extend .cf
 
 .island
-	padding: $bs
+  padding: $bs
+
+.island--v
+  +rem(padding, $bs 0)
 
 .island > :last-child,
 .islet > :last-child
-	margin-bottom: 0
+  margin-bottom: 0
 
 // Smaller island
 .islet
-	padding: $bs-half
+  padding: $bs-half

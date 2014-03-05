@@ -2,254 +2,261 @@
 title: index
 ---
 
-// Menu
-// - - - - - - - - - - - - - - -
+#sort-target-container
 
-section
-  .grid
-    .grid__item.one-third
-      h2.section-header
-        | About
+  // About
+  // - - - - - - - - - - - - - - -
 
-      .extra__text
-        | #{data.copy.about.extra_text}
+  section.about
+    .grid
+      .grid__item.one-third
+        h2.section-header
+          | About
 
-
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | English
-        p
-          | #{data.copy.about.quotes.en}
-        span.quotes-by
-          | #{data.copy.about.quotes_by}
-
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | Japanese
-        p
-          | #{data.copy.about.quotes.ja}
-        span.quotes-by
-          | #{data.copy.about.quotes_by}
+        .extra__text
+          | #{data.copy.about.extra_text}
 
 
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | English
+          p
+            | #{data.copy.about.quotes.en}
+          span.quotes-by
+            | #{data.copy.about.quotes_by}
 
-// Read Me
-// - - - - - - - - - - - - - - -
-
-section
-  .grid
-    .grid__item.one-third
-      h2.section-header
-        | Read me
-
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | English
-        p
-          | #{data.copy.readme.en}
-
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | Japanese
-        p
-          | #{data.copy.readme.ja}
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | Japanese
+          p
+            | #{data.copy.about.quotes.ja}
+          span.quotes-by
+            | #{data.copy.about.quotes_by}
 
 
 
-// Subtitle
-// - - - - - - - - - - - - - - -
+  // Read Me
+  // - - - - - - - - - - - - - - -
 
-section
-  .grid
-    .grid__item.one-third
-      h2.section-header
-        | Subtitle
+  section.readme
+    .grid
+      .grid__item.one-third
+        h2.section-header
+          | Read me
 
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | English
-        p
-          | #{data.copy.subtitle.en}
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | English
+          p
+            | #{data.copy.readme.en}
 
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | Japanese
-        p
-          | #{data.copy.subtitle.ja}
-
-
-// Tagline
-// - - - - - - - - - - - - - - -
-
-section
-  .grid
-    .grid__item.one-third
-      h2.section-header
-        | Tagline
-
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | English
-        p
-          | #{data.copy.tagline.en}
-
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | Japanese
-        p
-          | #{data.copy.tagline.ja}
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | Japanese
+          p
+            | #{data.copy.readme.ja}
 
 
-// SHARE - HEADER
-// - - - - - - - - - - - - - - -
 
-section
-  .grid
-    .grid__item.one-third
-      h2.section-header
-        | Share
+  // Subtitle
+  // - - - - - - - - - - - - - - -
 
-    .grid__item.one-third
-      .copy.border__lighter
+  section.subtitle
+    .grid
+      .grid__item.one-third
+        h2.section-header
+          | Subtitle
 
-    .grid__item.one-third
-      .copy.border__lighter
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | English
+          p
+            | #{data.copy.subtitle.en}
 
-// SHARE - Email footer
-// - - - - - - - - - - - - - - -
-
-section#email-footer
-  .grid
-    .grid__item.one-third
-      h3.section-header.section-header__lighter
-        | Email footer
-      .extra__text
-        | #{data.copy.email_footer.extra_text}
-
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | English
-        p
-          | #{data.copy.tagline.en}
-
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | Japanese
-        p
-          | #{data.copy.email_footer.ja}
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | Japanese
+          p
+            | #{data.copy.subtitle.ja}
 
 
-// SHARE - Book - Email
-// - - - - - - - - - - - - - - -
+  // Tagline
+  // - - - - - - - - - - - - - - -
 
-section
-  .grid
-    .grid__item.one-third
-      h3.section-header.section-header__lighter
-        | Book
-        span.share__email email
-      .extra__text
-        | #{data.copy.book.extra_text}
+  section.tagline
+    .grid
+      .grid__item.one-third
+        h2.section-header
+          | Tagline
 
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | English
+          p
+            | #{data.copy.tagline.en}
 
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | English
-        p
-          span.tag__type Mine
-          | #{data.copy.tagline.en}
-        p
-          span.tag__type.tag__type--orange Other's
-          | #{data.copy.tagline.en}
-
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | Japanese
-        p
-          span.tag__type Mine
-          | #{data.copy.book.mine.email.ja}
-        p
-          span.tag__type.tag__type--orange Other's
-          | #{data.copy.book.others.email.ja}
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | Japanese
+          p
+            | #{data.copy.tagline.ja}
 
 
-// SHARE - Book - Twitter
-// - - - - - - - - - - - - - - -
+  // SHARE - HEADER
+  // - - - - - - - - - - - - - - -
 
-section
-  .grid
-    .grid__item.one-third
-      h3.section-header.section-header__lighter
-        | Book
-        span.share__twitter twitter
+  section.share.email.facebook.twitter
+    .grid
+      .grid__item.one-third
+        h2.section-header
+          | Share
 
+      .grid__item.one-third
+        .copy.border__lighter
 
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | English
-        p
-          span.tag__type Mine
-          | #{data.copy.tagline.en}
-        p
-          span.tag__type.tag__type--orange Other's
-          | #{data.copy.book.others.twitter.en}
+      .grid__item.one-third
+        .copy.border__lighter
 
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | Japanese
-        p
-          span.tag__type Mine
-          | #{data.copy.book.mine.twitter.ja}
-        p
-          span.tag__type.tag__type--orange Other's
-          | #{data.copy.book.others.twitter.ja}
+  // SHARE - Email footer
+  // - - - - - - - - - - - - - - -
 
+  section.share.email.email-footer
+    .grid
+      .grid__item.one-third
+        h3.section-header.section-header__lighter
+          | Email footer
+        .extra__text
+          | #{data.copy.email_footer.extra_text}
 
-// SHARE - Book - Facebook
-// - - - - - - - - - - - - - - -
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | English
+          p
+            | #{data.copy.tagline.en}
 
-section
-  .grid
-    .grid__item.one-third
-      h3.section-header.section-header__lighter
-        | Book
-        span.share__facebook facebook
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | Japanese
+          p
+            | #{data.copy.email_footer.ja}
 
 
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | English
-        p
-          span.tag__type Mine
-          | #{data.copy.tagline.en}
-        p
-          span.tag__type.tag__type--orange Other's
-          | #{data.copy.book.others.twitter.en}
+  // SHARE - Book - Email
+  // - - - - - - - - - - - - - - -
 
-    .grid__item.one-third
-      .copy
-        h3.section-header-sub
-          | Japanese
-        p
-          span.tag__type Mine
-          | #{data.copy.book.mine.facebook.ja}
-        p
-          span.tag__type.tag__type--orange Other's
-          | #{data.copy.book.others.facebook.ja}
+  section.share.book.email
+    .grid
+      .grid__item.one-third
+        h3.section-header.section-header__lighter
+          | Book
+          span.share__email email
+        .extra__text
+          | #{data.copy.book.extra_text}
 
+
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | English
+          p
+            span.tag__type Mine
+            | #{data.copy.tagline.en}
+          p
+            span.tag__type.tag__type--orange Other's
+            | #{data.copy.tagline.en}
+
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | Japanese
+          p
+            span.tag__type Mine
+            | #{data.copy.book.mine.email.ja}
+          p
+            span.tag__type.tag__type--orange Other's
+            | #{data.copy.book.others.email.ja}
+
+
+  // SHARE - Book - Twitter
+  // - - - - - - - - - - - - - - -
+
+  section.share.book.twitter
+    .grid
+      .grid__item.one-third
+        h3.section-header.section-header__lighter
+          | Book
+          span.share__twitter twitter
+
+
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | English
+          p
+            span.tag__type Mine
+            | #{data.copy.tagline.en}
+          p
+            span.tag__type.tag__type--orange Other's
+            | #{data.copy.book.others.twitter.en}
+
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | Japanese
+          p
+            span.tag__type Mine
+            | #{data.copy.book.mine.twitter.ja}
+          p
+            span.tag__type.tag__type--orange Other's
+            | #{data.copy.book.others.twitter.ja}
+
+
+  // SHARE - Book - Facebook
+  // - - - - - - - - - - - - - - -
+
+  section.share.book.facebook
+    .grid
+      .grid__item.one-third
+        h3.section-header.section-header__lighter
+          | Book
+          span.share__facebook facebook
+
+
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | English
+          p
+            span.tag__type Mine
+            | #{data.copy.tagline.en}
+          p
+            span.tag__type.tag__type--orange Other's
+            | #{data.copy.book.others.twitter.en}
+
+      .grid__item.one-third
+        .copy
+          h3.section-header-sub
+            | Japanese
+          p
+            span.tag__type Mine
+            | #{data.copy.book.mine.facebook.ja}
+          p
+            span.tag__type.tag__type--orange Other's
+            | #{data.copy.book.others.facebook.ja}
+
+
+  // Fail element
+  // - - - - - - - - - - - - - - -
+  / .fail
+  /   | We're sorry - there are currently no posts in the selected category
 

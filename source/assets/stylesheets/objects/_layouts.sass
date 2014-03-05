@@ -3,11 +3,24 @@
 //------------------------------------
 
 
+// Variables
+%animate-show
+  +vendor(transition-property, opacity)
+  +vendor(transition-duration, 1s)
+  +vendor(transition-timing-function, easeIn)
+
+
 // Main container holds almost all elements
 .container
   position: relative
   background-color: $white
-  overflow-y: auto
+  overflow-y: scroll
+  opacity: 0
+  @extend %animate-show
+
+.js-loaded
+  .container
+    opacity: 1
 
 // Set site width
 .site-width
@@ -20,4 +33,5 @@
 section
   position: relative
   +rem(margin-bottom, $bs*4)
+
 

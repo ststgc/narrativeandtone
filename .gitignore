@@ -18,16 +18,22 @@
 
 # ignore ruby files
 *.rb
-.cache/sass/860d29e3a5014e0f8cd9d739849d1db74c9b075c/all.sassc
+.cache
 
-.cache/sass/860d29e3a5014e0f8cd9d739849d1db74c9b075c/defaults.sassc
+.cache/sass/19cc5124068e56dd3c509ce4f5197262f19dceca/_layouts.sassc
 
-.cache/sass/860d29e3a5014e0f8cd9d739849d1db74c9b075c/defaults.sassc
+.cache/sass/19cc5124068e56dd3c509ce4f5197262f19dceca/_layouts.sassc
 
-.cache/sprockets/64abad2049d19f69f93abd65f9c7051b
+.cache/sass/eaf13f48ea07e3bc5c2079756e88fceb6f1b3c1c/_main.sassc
 
-.cache/sprockets/64abad2049d19f69f93abd65f9c7051b
+.cache/sass/eaf13f48ea07e3bc5c2079756e88fceb6f1b3c1c/_main.sassc
 
-.cache/sprockets/94d4bd1199e04fb5bad76ed37e011a57
+.cache/sprockets/2adeedb298e52d76f015d6edc15b513b
 
-.cache/sprockets/94d4bd1199e04fb5bad76ed37e011a57
+.cache/sprockets/4e8867fe620022d011eaed764ca0726e
+
+.cache/sprockets/4e8867fe620022d011eaed764ca0726e
+
+.cache/sprockets/a2de2efb2cda4ba68c0c76b39e0b0391
+
+.cache/sprockets/d8ae37154b8adb87ecf57109da48194f

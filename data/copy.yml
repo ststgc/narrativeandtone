@@ -31,7 +31,7 @@ book:
   mine:
     email:
       en:
-      ja: <strong>ちゃりん</strong>さんの「<strong>大学二年生</strong>」ブックを共有します。<br><br>私の全力の一年。<br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br><a href="#email-footer">Email footer</a>
+      ja: <strong>ちゃりん</strong>さんの「<strong>大学二年生</strong>」ブックを共有します。<br><br>私の全力の一年。<br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br>#{Email footer}
 
     twitter:
       en:
@@ -44,7 +44,7 @@ book:
   others:
     email:
       en:
-      ja: 私の「<strong>大学二年生</strong>」ブックを共有します。<br><br>私の全力の一年。<br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br><a href="#email-footer">Email footer</a>
+      ja: 私の「<strong>大学二年生</strong>」ブックを共有します。<br><br>私の全力の一年。<br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br>#{Email footer}
 
     twitter:
       en:

@@ -14,3 +14,10 @@
   Generator: Middleman
   Deploy: Github Pages
   Editor: Sublime Text
+
+# NOTE
+  Learn BEM'y css:
+  http://alwaystwisted.com/post.php?s=2014-02-27-even-easier-bem-ing-with-sass-33
+  .block{} // the ‘thing’ like .list
+  .block__element{} // a child of the block like .list__item 
+  .block--modifier{} // a variation of the ‘thing’ like .list-—vertical

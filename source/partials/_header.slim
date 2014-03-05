@@ -2,10 +2,10 @@ header.header
   h1.site-branding
     | #{data.ogp.title}
 
-  nav.filter__container.island--v
+  nav.filter__container
     .btn.filter__btn--toggle
       | &#9776; Menu
-    ul.filter__lists
+    ul.filter__lists.island--v
       li.btn.btn--soft.btn--small.btn--border.filter data-filter="all"
         | All
 
@@ -34,31 +34,6 @@ header.header
           li.btn.btn--soft.btn--small.btn--border.filter data-filter="bookshelf"
             | Bookshlef
 
-      li.btn.btn--soft.btn--small.btn--border.filter data-filter="share"
-        | Share
-
-        ul
-          li.btn.btn--soft.btn--small.btn--border.filter data-filter="book"
-            | Book
-          li.btn.btn--soft.btn--small.btn--border.filter data-filter="page"
-            | Page
-          li.btn.btn--soft.btn--small.btn--border.filter data-filter="profile"
-            | Profile
-          li.btn.btn--soft.btn--small.btn--border.filter data-filter="bookshelf"
-            | Bookshlef
-
-      li.btn.btn--soft.btn--small.btn--border.filter data-filter="share"
-        | Share
-
-        ul
-          li.btn.btn--soft.btn--small.btn--border.filter data-filter="book"
-            | Book
-          li.btn.btn--soft.btn--small.btn--border.filter data-filter="page"
-            | Page
-          li.btn.btn--soft.btn--small.btn--border.filter data-filter="profile"
-            | Profile
-          li.btn.btn--soft.btn--small.btn--border.filter data-filter="bookshelf"
-            | Bookshlef
 
 
       li.filter data-filter="email"

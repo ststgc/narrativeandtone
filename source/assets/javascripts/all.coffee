@@ -13,19 +13,7 @@ $(document).ready ->
     return
 
 
-
-  # $('.share-modal__container').click(function(event){
-  #     event.stopPropagation();
-  # });
-
-  # $('.js-share-modal__close').on('click', function(){
-  #     $('body').removeClass('js-share-modal__active');
-  # });
-
-
-
-
-
+  # mixitup.js
   $("#sort-target-container").mixitup
     targetSelector: "section"
     filterSelector: ".filter"
@@ -33,12 +21,21 @@ $(document).ready ->
     transitionSpeed: 300
     failClass: 'fail'
     targetDisplayGrid: 'block'
-    easing: 'windback'
     effects: [
       "fade"
     ]
   return
 
+
+# Add keyboard shortcut for toggle navigation.
+$(document).ready ->
+  $(document).keydown (e) ->
+    if not e.ctrlKey and not e.altKey and not e.shiftKey and not e.metaKey
+      $('body').toggleClass 'js-sidebar--open' if e.which is 13 # Escape key code
+      $('body').toggleClass 'js-sidebar--open'
+    return
+
+  return
 
 
 # When everything is loaded...

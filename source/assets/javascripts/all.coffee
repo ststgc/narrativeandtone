@@ -31,10 +31,8 @@ $(document).ready ->
 $(document).ready ->
   $(document).keydown (e) ->
     if not e.ctrlKey and not e.altKey and not e.shiftKey and not e.metaKey
-      $('body').toggleClass 'js-sidebar--open' if e.which is 13 # Escape key code
-      $('body').toggleClass 'js-sidebar--open'
+      $('body').toggleClass 'js-sidebar--open' if e.which is 27 # Escape key code
     return
-
   return
 
 

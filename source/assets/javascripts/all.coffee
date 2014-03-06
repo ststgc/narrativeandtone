@@ -34,7 +34,7 @@ $(document).ready ->
     if not e.ctrlKey and not e.altKey and not e.shiftKey and not e.metaKey
       if e.which is 27 # Escape key code
         clearFilter.click()
-      else $('body').toggleClass 'js-sidebar--open' if e.which is 32 # Space key code
+      else $('body').toggleClass 'js-sidebar--open' if e.which is 77 # 'm' key code
     return
   return
 

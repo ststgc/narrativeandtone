@@ -2,9 +2,9 @@
 # title, description, type etc is the same.
 
 url: &url
-  'http://seehowthelandlies.com'
+  'http://narrativeandtone.com'
 title: &title
-  'Voice & rhythm'
+  'Narrative & tone'
 description: &description
   "A cheatsheet of Poin's tone & manner."
 type: &type
@@ -12,11 +12,11 @@ type: &type
 locale: &locale
   ja: 'ja'
 keywords: &keyworkds
-  'Poin, message, voice & tone'
+  'Poin, message, narrative and tone'
 
 twitter:
   lang: 'ja'
-  hashtags: 'dosaku'
+  hashtags: 'narrative-tone'
   site: *title
   text: *title
   type: 'summary_large_image'
@@ -31,7 +31,7 @@ fb:
 
 og:
   locale: 'ja_JP'
-  image: ['http://seehowthelandlies.com/ogp.jpg']
+  image: ['http://narrativeandtone.com/ogp.jpg']
   url: *url
   title: *title
   site_name: *title

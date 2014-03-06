@@ -1,8 +1,5 @@
 # encoding: utf-8
-activation_instructions: 'Registration confirmation on Picky Pocket'
-
 extra_text: 'EmailのTitle, Detailは手動メンテナンス'
-
 
 book_created:
   title: '<strong>%{user}</strong>さんが新しいブックを作りました'
@@ -12,11 +9,17 @@ book_shared_to_add:
   title: '<strong>%{user}</strong>さんのブックへ投稿できるように招待されました'
   detail: '一緒に、ステキなブックを創りましょう。'
 
+book_shared_to_see:
+  title: '<strong>%{user}</strong>さんがプライベートなブックをあなたに公開しました'
+  detail: '<strong>%{user}</strong>さんが招待した人だけが見られるブックです。'
+
+user_followed:
+  title: '<strong>%{user}</strong>さんがあなたをフォローしました'
+  detail: '<strong>%{user}</strong>さんのブックから、楽しい発見があるかも？'
 
 
 comment_created: '%{user} left a comment on %{page}'
 like_created: '%{user} favorited %{page}'
-user_followed: '%{user} is now following you'
 book_subscribed: '%{user} subscribed to %{book}'
 inappropriate: 'Your page %{page} was flagged as inappropriate'
 delete_account_done: 'Your Poin account has been deleted'
@@ -24,7 +27,6 @@ facebook_friend_joined: '%{user} has joined Poin'
 twitter_friend_joined: '%{user} has joined Poin'
 inappropriate_page: 'This page %{page} created by %{owner} was flagged as inappropriate'
 inappropriate_book: 'This book %{book} created by %{owner} was flagged as inappropriate'
-book_shared_to_see: '%{user} shared a private book %{book} with you'
 welcome_after_signed_up: 'Welcome to Poin'
 editor_pick_updated: "New \"Editor's Picks,\" updated. Check it out!"
 editor_picked_your_book: "Congrats! Your book is featured in \"Editor's Picks!\""

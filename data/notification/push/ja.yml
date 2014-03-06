@@ -5,6 +5,7 @@ ja:
     book_shared_to_add: '<b>%{user}</b>さんが「<b>%{book}</b>」へ投稿できるように招待しました。'
     book_shared_to_see: '<b>%{user}</b>さんが「<b>%{book}</b>」をあなたに公開しました。'
     user_followed: '<b>%{user}</b>さんがあなたをフォローしました。'
+
     page_created: '<b>%{user}</b>さんが「<b>%{page}</b>」を作成しました。'
     like_created: '<b>%{user}</b>さんが「<b>%{page}</b>」をお気に入りに登録しました。'
     comment_created: '<b>%{user}</b>さんが「<b>%{page}</b>」にコメントしました。'

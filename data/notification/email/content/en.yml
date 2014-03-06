@@ -1,5 +1,4 @@
 # encoding: utf-8
-activation_instructions: 'Registration confirmation on Picky Pocket'
 
 book_created:
   title: '<strong>%{user}</strong> created a new book.'
@@ -9,9 +8,17 @@ book_shared_to_add:
   title: '<strong>%{user}</strong> invited you to add pages to <strong>%{book}</strong>'
   detail: "Let's make this book special, together."
 
+book_shared_to_see:
+  title: '<strong>%{user}</strong> shared a private book <strong>%{book}</strong> with you'
+  detail: 'Only people invited by <strong>%{user}</strong> can see this book.'
+
+user_followed:
+  title: '<strong>%{user}</strong> %is now following you'
+  detail: "Maybe you'll discover from <strong>%{user}</strong> too?"
+
+
 comment_created: '%{user} left a comment on %{page}'
 like_created: '%{user} favorited %{page}'
-user_followed: '%{user} is now following you'
 book_subscribed: '%{user} subscribed to %{book}'
 inappropriate: 'Your page %{page} was flagged as inappropriate'
 delete_account_done: 'Your Poin account has been deleted'
@@ -19,7 +26,6 @@ facebook_friend_joined: '%{user} has joined Poin'
 twitter_friend_joined: '%{user} has joined Poin'
 inappropriate_page: 'This page %{page} created by %{owner} was flagged as inappropriate'
 inappropriate_book: 'This book %{book} created by %{owner} was flagged as inappropriate'
-book_shared_to_see: '%{user} shared a private book %{book} with you'
 welcome_after_signed_up: 'Welcome to Poin'
 editor_pick_updated: "New \"Editor's Picks,\" updated. Check it out!"
 editor_picked_your_book: "Congrats! Your book is featured in \"Editor's Picks!\""

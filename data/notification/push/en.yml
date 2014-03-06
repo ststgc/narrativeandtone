@@ -5,6 +5,7 @@ en:
     book_shared_to_add: '<b>%{user}</b> has invited you to add pages to <b>%{book}</b>.'
     book_shared_to_see: '<b>%{user}</b> has shared a private book <b>%{book}</b> with you.'
     user_followed: '<b>%{user}</b> is now following you.'
+
     page_created: '<b>%{user}</b> created a new page <b>%{page}</b>.'
     like_created: '<b>%{user}</b> favorited <b>%{page}</b>.'
     comment_created: '<b>%{user}</b> left a comment on <b>%{page}</b>.'

@@ -1,0 +1,94 @@
+# encoding: utf-8
+en:
+  mailers:
+    subject:
+      activation_instructions: 'Registration confirmation on Picky Pocket'
+      book_created: '%{user} created a new book %{book}'
+      comment_created: '%{user} left a comment on %{page}'
+      like_created: '%{user} favorited %{page}'
+      user_followed: '%{user} is now following you'
+      book_subscribed: '%{user} subscribed to %{book}'
+      inappropriate: 'Your page %{page} was flagged as inappropriate'
+      delete_account_done: 'Your Poin account has been deleted'
+      facebook_friend_joined: '%{user} has joined Poin'
+      twitter_friend_joined: '%{user} has joined Poin'
+      inappropriate_page: 'This page %{page} created by %{owner} was flagged as inappropriate'
+      inappropriate_book: 'This book %{book} created by %{owner} was flagged as inappropriate'
+      book_shared_to_see: '%{user} shared a private book %{book} with you'
+      book_shared_to_add: '%{user} invited you to add pages to %{book}'
+      welcome_after_signed_up: 'Welcome to Poin'
+      editor_pick_updated: "New \"Editor's Picks,\" updated. Check it out!"
+      editor_picked_your_book: "Congrats! Your book is featured in \"Editor's Picks!\""
+      book_ranking_updated: "Congrats! Your book has entered the \"Book Rankings!\""
+    content:
+      poin_team: 'The Poin Team'
+      slogan: 'Your journal for rating everything.'
+      setting: 'Change email settings:'
+  layouts:
+    footer:
+      about: 'About'
+      terms: 'Terms'
+  ratings:
+    average: Average
+    good: GOOD!
+    very_good: Very good
+    excelent: Excelent
+    outstanding: Outstanding
+    bad: BAD!
+  details:
+    written_by: 'Written by'
+    contributor:
+      one: 'Contributor'
+      other: 'Contributors'
+    page:
+      one: 'Page'
+      other: 'Pages'
+    doodle:
+      one: 'Doodle'
+      other: 'Doodles'
+    subscriber:
+      one: 'Subscriber'
+      other: 'Subscribers'
+    following:
+      one: 'Following'
+      other: 'Followings'
+    follower:
+      one: 'Follower'
+      other: 'Followers'
+    books: "'s books"
+    subscribing: 'Subscribing'
+    view_more: 'Load More Pages'
+    owner: 'Owner'
+    next_page: 'Next Page'
+    last_page: 'Last Page'
+    last_page_description: 'This is the last page. Back to book.'
+    read_next: 'Read next'
+    download_appstore: 'Download Poin on the app store!'
+    book:
+      no_pages: 'There are no pages yet.'
+    applink:
+      see_on_poin: 'See on Poin'
+      get_poin: 'Get Poin!'
+      send_link_to_iphone: 'Copy the link, and send it to your iPhone.'
+    share:
+      title: 'SHARE'
+      email: 'Email'
+    profile:
+      no_books: 'There are no books yet.'
+  feedback:
+    your_name: 'Your Name'
+    your_email: 'Your Email Address'
+    type_of_your_problem: 'Type of your problem'
+    type_of_problem:
+      spam: 'Spam or Abuse'
+      broken: 'Broken Features'
+    tell_us: 'Tell us about it'
+
+  statics:
+    title_privacy: 'Privacy Policy'
+    title_terms: 'Terms of Service'
+    day_update_privacy: 'Enacted October 7th, 2013'
+    day_update_terms: 'Enacted October 7th, 2013'
+    firm_name: 'M&C, Inc.'
+    title_landing: 'Poin - PHOTO DIARY<br>for Discovery'
+    description_landing: 'Transforms your photos & moments<br>into beautiful stories.'

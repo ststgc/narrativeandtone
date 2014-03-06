@@ -8,16 +8,14 @@
   position: fixed
   display: block
   z-index: 1
-  right: 5%
-  top: $bs*3
+  right: 0
+  top: $bs*3.5
   background-color: $white
-
-
-.filter
-  cursor: pointer
+  +vendor(transform, translateX(-100px))
 
 
 .filter__lists
+  // position
   position: relative
   list-style: none
   padding-left: 0
@@ -26,11 +24,31 @@
     color: $white
 
 
-.filter__btn--toggle
-  position: absolute
-  right: 0
-  +rem(top, -$bs*1.5)
-
 .filter
+  +rem(padding, $bs-half $bs)
+  text-transform: uppercase
+  +rem(letter-spacing, .5px)
+  cursor: pointer
+
+  &:hover
+    background-color: darken($black, 10%)
+
+  // Sub lists
+  li
+    +rem(padding, $bs/4)
+
+    &:hover
+      background-color: darken($black, 20%)
+      color: $white
+
+
+  // When its active
   &.active
     font-weight: bold
+    background-color: $white
+    color: $black
+
+    // Sub lists
+    li
+      color: $black
+

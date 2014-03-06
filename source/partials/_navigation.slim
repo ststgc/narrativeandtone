@@ -1,12 +1,12 @@
 nav.sidebar
   .sidebar__inner
-    ul.filter__lists.island--v
+    ul.filter__lists
+
+      // Show all
       li.filter#clear data-filter="all"
         | All
 
-      li.filter data-filter="about"
-        | About
-
+      // Base
       li.filter data-filter="readme"
         | Read me
 
@@ -16,6 +16,7 @@ nav.sidebar
       li.filter data-filter="tagline"
         | Tagline
 
+      // Share
       li.filter data-filter="share"
         | Share
 
@@ -30,3 +31,17 @@ nav.sidebar
             | Bookshlef
           li.filter data-filter="email"
             | Email
+
+      // Notification
+      li.filter data-filter="notification"
+        | Notification
+
+        ul
+          li.filter data-filter="book-created"
+            | Book created
+          li.filter data-filter="book-shared-to-add"
+            | Book shared to add
+
+
+
+

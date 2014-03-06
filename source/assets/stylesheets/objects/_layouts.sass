@@ -47,32 +47,45 @@ section
 
 // Set sidebar width
 // It's used for translateX position as well.
-$sidebar-width: 400px
+$sidebar-width: 300px
 
 // Sidebar
 .js-sidebar--open
   .sidebar
-    -webkit-transform: translateX(0px)
+    +vendor(transform, translateX(0))
   .container
-    -webkit-transform: translateX(-$sidebar-width)
+    +vendor(transform, translateX(-$sidebar-width))
+  .sidebar__inner
+    display: block
+  //   opacity: 1
 
 
 
 .sidebar
   display: block
   position: absolute
+  overflow-y: hidden
   right: 0
   top: 0
   width: $sidebar-width
   min-height: 100%
   background-color: darken($black, 5%)
-  -webkit-transition: -webkit-transform 0.3s
-  -webkit-transform: translateX($sidebar-width)
+  +vendor(transition, 0.3s)
+  +vendor(transform, translateX($sidebar-width))
+
 
 .sidebar__inner
   position: relative
-  +rem(padding, $bs)
-  overflow-y: scroll
+  +rem(padding, $bs*3.5 0)
+
+  // prevent some bug
+  display: none
+
+  // oppacity for animation
+  // opacity: 0
+  // +vendor(transition-property, opacity)
+  // +vendor(transition-duration, .3s)
+
 
 
 

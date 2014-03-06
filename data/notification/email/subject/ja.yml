@@ -1,0 +1,93 @@
+# encoding: utf-8
+ja:
+  mailers:
+    subject:
+      activation_instructions: "Picky Pocket会員登録確認メール。"
+      book_created: '%{user}さんが %{book} ブックを作成しました '
+      comment_created: '%{user}さんが %{page} にコメントしました'
+      like_created: '%{user}さんが %{page} をお気に入りに登録しました'
+      book_subscribed: '%{user}さんがあなたの %{book} ブックを購読しました'
+      inappropriate: 'Your page %{page} was flagged as inappropriate'
+      delete_account_done: 'あなたのPoinアカウントは削除されました'
+      facebook_friend_joined: '%{user}さんがPoinに参加しました'
+      twitter_friend_joined: '%{user}さんがPoinに参加しました'
+      inappropriate_page: '%{owner}が投稿したページ %{page} が、不適切なページとして報告されました'
+      inappropriate_book: '%{owner}が作成した %{book} が、不適切なブックとして報告されました'
+      book_shared_to_see: '%{user}さんが %{book} をあなたに公開しました'
+      book_shared_to_add: '%{user}さんが %{book} へ投稿できるように招待しました'
+      user_followed: '%{user}さんがあなたをフォローしました'
+      welcome_after_signed_up: 'Poinにご登録ありがとうございます'
+      editor_pick_updated: '「オススメブック」が更新されました！気になるブックがないか見てみましょう！'
+      editor_picked_your_book: 'おめでとうございます！ あなたのブックが「オススメブック」に掲載されました！'
+      book_ranking_updated: 'おめでとうございます！あなたのブックが「ブック・ランキング」にランクインしました！'
+    content:
+      poin_team: 'Poinチーム'
+      slogan: 'Your journal for rating everything.'
+      setting: '設計'
+  layouts:
+    footer:
+      about: '会社概要'
+      terms: '利用条件'
+  ratings:
+    average: Average
+    good: GOOD!
+    very_good: Very good
+    excelent: Excelent
+    outstanding: Outstanding
+    bad: BAD!
+  details:
+    written_by: '投稿者'
+    contributor:
+      one: '人'
+      other: '人'
+    page:
+      one: 'ページ'
+      other: 'ページ'
+    doodle:
+      one: 'らくがき'
+      other: 'らくがき'
+    subscriber:
+      one: '購読者'
+      other: '購読者'
+    following:
+      one: 'フォロー'
+      other: 'フォロー'
+    follower:
+      one: 'フォロワー'
+      other: 'フォロワー'
+    books: 'のブック'
+    subscribing: '購読中のブック'
+    view_more: 'もっと見る'
+    owner: '作者'
+    next_page: '次ページ'
+    last_page: '最後ページ'
+    last_page_description: 'ここは最後ページです。 Bookへ'
+    read_next: 'Read next JA'
+    download_appstore: 'Poinを無料ダウンロード！'
+    book:
+      no_pages: 'まだページがありません。'
+    applink:
+      see_on_poin: 'Poinでみる'
+      get_poin: 'Poinを無料ダウンロード！'
+      send_link_to_iphone: '上記リンクをコピーして、メールで送る。'
+    share:
+      title: 'シェアする'
+      email: 'メールで送る'
+    profile:
+      no_books: 'まだブックがありません。'
+  feedback:
+    your_name: 'お名前'
+    your_email: 'メールアドレス'
+    type_of_your_problem: '該当する問題をお選びください'
+    type_of_problem:
+      spam: 'スパムまたは不正利用'
+      broken: '不具合'
+    tell_us: '問題の内容をご記入ください。'
+  statics:
+    title_privacy: 'プライバシーポリシー'
+    title_terms: '利用規約'
+    day_update_privacy: '2013年10月7日制定'
+    day_update_terms: '2013年10月7日制定'
+    firm_name: 'M&C株式会社'
+    title_landing: 'Poin - 想いをつづる<br>写真日記'
+    description_landing: 'ちょっとした発見や、自分の時間を大切にする人たちの、「みつける」日記アプリです。'

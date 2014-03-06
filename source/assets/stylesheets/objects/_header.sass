@@ -12,7 +12,7 @@
 .copy
   +rem(padding-top, $bs)
   border-top: 2px solid lighten($black, 30%)
-  color: lighten($black, 20%)
+  color: lighten($black, 10%)
 
 .section-header
   @extend .copy
@@ -54,6 +54,26 @@
 .tag__type--orange
   color: lighten($orange, 10%)
 
+.tag__type--subject:after
+  display: block
+  content: 'Subject:'
+  font-style: italic
+  +rem(margin-top, $bs-half)
+  color: lighten($black, 25%)
+
+.tag__type--title
+  @extend .tag__type--subject
+  border-top: 0
+  &:after
+    content: 'Title:'
+
+.tag__type--detail
+  @extend .tag__type--subject
+  border-top: 0
+
+  &:after
+    content: 'Detail:'
+
 
 .share__type
   display: inline
@@ -71,3 +91,5 @@
   @extend .share__type
   color: lighten($social-color-facebook, 15%)
 
+.notification__state
+  @extend .share__twitter

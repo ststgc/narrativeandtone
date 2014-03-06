@@ -1,0 +1,17 @@
+# encoding: utf-8
+ja:
+  notifications:
+    book_created: '<b>%{user}</b>さんが「<b>%{book}</b>」を作成しました。'
+    book_shared_to_add: '<b>%{user}</b>さんが「<b>%{book}</b>」へ投稿できるように招待しました。'
+    book_shared_to_see: '<b>%{user}</b>さんが「<b>%{book}</b>」をあなたに公開しました。'
+    user_followed: '<b>%{user}</b>さんがあなたをフォローしました。'
+    page_created: '<b>%{user}</b>さんが「<b>%{page}</b>」を作成しました。'
+    like_created: '<b>%{user}</b>さんが「<b>%{page}</b>」をお気に入りに登録しました。'
+    comment_created: '<b>%{user}</b>さんが「<b>%{page}</b>」にコメントしました。'
+    book_subscribed: '<b>%{user}</b> さんが「<b>%{book}</b>」を購読しました。'
+    facebook_friend_joined: '<b>%{user}</b>さんがPoinに参加しました。'
+    twitter_friend_joined: '<b>%{user}</b>さんがPoinに参加しました。'
+    connect_social_networks_after_signed_up: "FacebookかTwitterをつなぐと、友達があなたを見つけやすいです！（勝手にフィードへ投稿されません）"
+    editor_pick_updated: '「オススメブック」が更新されました！気になるブックがないか見てみましょう！'
+    editor_picked_your_book: 'おめでとうございます！ あなたのブックが「オススメブック」に掲載されました！'
+    book_ranking_updated: 'おめでとうございます！あなたのブックが「ブック・ランキング」にランクインしました！'

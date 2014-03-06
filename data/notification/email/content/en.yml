@@ -1,0 +1,26 @@
+# encoding: utf-8
+activation_instructions: 'Registration confirmation on Picky Pocket'
+
+book_created:
+  title: '<strong>%{user}</strong> created a new book.'
+  detail: 'Curious?'
+
+book_shared_to_add:
+  title: '<strong>%{user}</strong> invited you to add pages to <strong>%{book}</strong>'
+  detail: "Let's make this book special, together."
+
+comment_created: '%{user} left a comment on %{page}'
+like_created: '%{user} favorited %{page}'
+user_followed: '%{user} is now following you'
+book_subscribed: '%{user} subscribed to %{book}'
+inappropriate: 'Your page %{page} was flagged as inappropriate'
+delete_account_done: 'Your Poin account has been deleted'
+facebook_friend_joined: '%{user} has joined Poin'
+twitter_friend_joined: '%{user} has joined Poin'
+inappropriate_page: 'This page %{page} created by %{owner} was flagged as inappropriate'
+inappropriate_book: 'This book %{book} created by %{owner} was flagged as inappropriate'
+book_shared_to_see: '%{user} shared a private book %{book} with you'
+welcome_after_signed_up: 'Welcome to Poin'
+editor_pick_updated: "New \"Editor's Picks,\" updated. Check it out!"
+editor_picked_your_book: "Congrats! Your book is featured in \"Editor's Picks!\""
+book_ranking_updated: "Congrats! Your book has entered the \"Book Rankings!\""

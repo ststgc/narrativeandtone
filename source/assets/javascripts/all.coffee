@@ -1,6 +1,5 @@
 //= require 'jquery.mixitup.min'
 
-# Activate mixitup.js
 $(document).ready ->
 
   # Toggle sidebar

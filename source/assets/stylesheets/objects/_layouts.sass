@@ -19,21 +19,24 @@
   -webkit-transition: -webkit-transform 0.3s
   @extend %animate-show
 
+// FadeIn animation when DOM is ready
 .js-loaded
   .container
     opacity: 1
+
 
 // Set site width
 .site-width
   width: 90%
   margin-left: auto
   margin-right: auto
-  // max-width: 1000px
+
 
 // Section
 section
   position: relative
   +rem(margin-bottom, $bs*4)
+
 
 .wrapper
   width: 100%
@@ -42,12 +45,16 @@ section
   overflow-x: hidden
 
 
+// Set sidebar width
+// It's used for translateX position as well.
+$sidebar-width: 400px
+
 // Sidebar
 .js-sidebar--open
   .sidebar
     -webkit-transform: translateX(0px)
   .container
-    -webkit-transform: translateX(-200px)
+    -webkit-transform: translateX(-$sidebar-width)
 
 
 
@@ -56,11 +63,11 @@ section
   position: absolute
   right: 0
   top: 0
-  width: 200px
+  width: $sidebar-width
   min-height: 100%
   background-color: darken($black, 5%)
   -webkit-transition: -webkit-transform 0.3s
-  -webkit-transform: translateX(200px)
+  -webkit-transform: translateX($sidebar-width)
 
 .sidebar__inner
   position: relative

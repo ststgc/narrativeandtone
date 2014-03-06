@@ -4,145 +4,64 @@ title: index
 
 #sort-target-container
 
-  // About
-  // - - - - - - - - - - - - - - -
-
-  section.about
-    .grid
-      .grid__item.one-third
-        h2.section-header
-          | About
-
-        .extra__text
-          | #{data.copy.about.extra_text}
-
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | English
-          p
-            | #{data.copy.about.quotes.en}
-          span.quotes-by
-            | #{data.copy.about.quotes_by}
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | Japanese
-          p
-            | #{data.copy.about.quotes.ja}
-          span.quotes-by
-            | #{data.copy.about.quotes_by}
-
-
-
   // Read Me
   // - - - - - - - - - - - - - - -
 
-  section.readme
-    .grid
-      .grid__item.one-third
-        h2.section-header
-          | Read me
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | English
-          p
-            | #{data.copy.readme.en}
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | Japanese
-          p
-            | #{data.copy.readme.ja}
-
+  = partial 'base/base-readme'
 
 
   // Subtitle
   // - - - - - - - - - - - - - - -
 
-  section.subtitle
-    .grid
-      .grid__item.one-third
-        h2.section-header
-          | Subtitle
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | English
-          p
-            | #{data.copy.subtitle.en}
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | Japanese
-          p
-            | #{data.copy.subtitle.ja}
+  = partial 'base/base-subtitle'
 
 
   // Tagline
   // - - - - - - - - - - - - - - -
 
-  section.tagline
-    .grid
-      .grid__item.one-third
-        h2.section-header
-          | Tagline
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | English
-          p
-            | #{data.copy.tagline.en}
-
-      .grid__item.one-third
-        .copy
-          h3.section-header-sub
-            | Japanese
-          p
-            | #{data.copy.tagline.ja}
+  = partial 'base/base-tagline'
 
 
   // SHARE - HEADER
   // - - - - - - - - - - - - - - -
 
-  = partial 'share-header'
+  = partial 'share/share-header'
 
   // SHARE - Email footer
   // - - - - - - - - - - - - - - -
 
-  = partial 'share-email-footer'
+  = partial 'share/share-email-footer'
 
 
   // SHARE - book
   // - - - - - - - - - - - - - - -
 
-  = partial 'share-book'
+  = partial 'share/share-book'
 
 
   // SHARE - page
   // - - - - - - - - - - - - - - -
 
-  = partial 'share-page'
+  = partial 'share/share-page'
 
 
   // SHARE - profile
   // - - - - - - - - - - - - - - -
 
-  = partial 'share-profile'
+  = partial 'share/share-profile'
 
 
   // SHARE - bookshelf
   // - - - - - - - - - - - - - - -
 
-  = partial 'share-bookshelf'
+  = partial 'share/share-bookshelf'
+
+
+  // NOTIFIRE - HEADER
+  // - - - - - - - - - - - - - - -
+
+  = partial 'notifire/notifire-header'
+
 
 
   // Fail element

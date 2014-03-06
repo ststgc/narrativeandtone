@@ -14,9 +14,6 @@
   border-top: 2px solid lighten($black, 30%)
   color: lighten($black, 20%)
 
-.border--lighter
-  border-color: lighten($black, 60%)
-
 .section-header
   @extend .copy
   margin-bottom: $bs-half
@@ -24,8 +21,13 @@
   text-transform: uppercase
   letter-spacing: -0.5px
 
-.section-header__lighter
-  color: lighten($black, 18%)
+.border--lighter
+  border-color: lighten($black, 60%)
+
+
+.section-header--lighter
+  @extend .border--lighter
+
 
 .section-header-sub
   color: lighten($black, 50%)

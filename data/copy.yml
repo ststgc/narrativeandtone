@@ -1,11 +1,5 @@
-about:
-  extra_text: メッセージの修正する前に、Poin全体の言葉を俯瞰できるようにまとめています。ユーザーとの対話を意識して、やさしく話しかけるような言葉を選びましょう。
-  quotes:
-    en: In principle, anything can be improved. Anything we design today will be obsolete by next year, or five years from now, for sure. The product improves, the needs of users change. I've never found myself coming up with a solution that I know is going to last forever.
-    ja: どんなものでも、いまの状態より前進しているはずだ。いま、わたしたちがデザインしているものは、いまから1年後、5年後には確実に時代遅れになっている。その頃には、プロダクトは今よりもよくなっているはずだし、ユーザーのニーズも変わるだろう。いま見い出せる答えが、この先永遠に残っているという確信は、まだ持てていない。
-  quotes_by: Flipboard's design chief, <a href="http://www.fastcompany.com/3017867/most-creative-people/how-flipboards-head-designer-grapples-with-the-webs-manic-pace-of-chang" target="_blank">Marcos Weskamp</a>
-
 readme:
+  extra_text: メッセージの修正する前に、Poin全体の言葉を俯瞰できるようにまとめています。ユーザーとの対話を意識して、やさしく話しかけるような言葉を選びましょう。
   en: "<strong>See how the land lies</strong> is a cheatsheet of Poin's tone & manner. You can over view whole copies used on Poin. Do not forget copy plays important role on your user interface."
   ja: <strong>See how the land lies</strong> は、いまPoinが使うべき言葉を考えるページです。言葉は、ユーザーインターフェイスの一部であることを忘れず、たいせつにチューニングしましょう。
 

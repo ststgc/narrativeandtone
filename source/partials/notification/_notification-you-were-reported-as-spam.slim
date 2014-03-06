@@ -1,0 +1,33 @@
+section.notification.you-were-reported-as-spam
+  .grid
+    .grid__item.one-third
+      h3.section-header
+        | You were reported as spam
+      .extra__text
+        | #{data.notification.email.content.ja.extra_text}
+
+
+    .grid__item.one-third
+      .copy
+        h3.section-header-sub
+          | English
+        p
+          span.tag__type.tag__type--orange.tag__type--subject Email
+          | #{data.notification.email.subject.en.en.mailers.subject.inappropriate}
+          span.tag__type.tag__type--title
+          | #{data.notification.email.content.en.inappropriate.title}
+          span.tag__type.tag__type--detail
+          | #{data.notification.email.content.en.inappropriate.detail}
+
+
+    .grid__item.one-third
+      .copy
+        h3.section-header-sub
+          | Japanese
+        p
+          span.tag__type.tag__type--orange.tag__type--subject Email
+          | #{data.notification.email.subject.ja.ja.mailers.subject.inappropriate}
+          span.tag__type.tag__type--title
+          | #{data.notification.email.content.ja.inappropriate.title}
+          span.tag__type.tag__type--detail
+          | #{data.notification.email.content.ja.inappropriate.detail}

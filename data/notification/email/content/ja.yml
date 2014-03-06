@@ -17,17 +17,54 @@ user_followed:
   title: '<strong>%{user}</strong>さんがあなたをフォローしました'
   detail: '<strong>%{user}</strong>さんのブックから、楽しい発見があるかも？'
 
+like_created:
+  title: '<strong>%{user}</strong>さんが<strong>%{page}</strong>をお気に入りしました'
+  detail: '気に入ってもらえましたね。'
 
-comment_created: '%{user} left a comment on %{page}'
-like_created: '%{user} favorited %{page}'
-book_subscribed: '%{user} subscribed to %{book}'
-inappropriate: 'Your page %{page} was flagged as inappropriate'
-delete_account_done: 'Your Poin account has been deleted'
-facebook_friend_joined: '%{user} has joined Poin'
-twitter_friend_joined: '%{user} has joined Poin'
-inappropriate_page: 'This page %{page} created by %{owner} was flagged as inappropriate'
-inappropriate_book: 'This book %{book} created by %{owner} was flagged as inappropriate'
-welcome_after_signed_up: 'Welcome to Poin'
-editor_pick_updated: "New \"Editor's Picks,\" updated. Check it out!"
-editor_picked_your_book: "Congrats! Your book is featured in \"Editor's Picks!\""
-book_ranking_updated: "Congrats! Your book has entered the \"Book Rankings!\""
+comment_created:
+  title: '<strong>%{user}</strong>さんが<strong>%{page}</strong>にコメントしました'
+  detail: '返事すると、もっと盛り上がるかも？'
+
+book_subscribed:
+  title: '<strong>%{user}</strong>さんが<strong>%{book}</strong>を購読しました'
+  detail: '<strong>%{user}</strong>さん、このブックの今後が気になってるみたいです。'
+
+facebook_friend_joined:
+  title: '<strong>%{user}</strong>さんがPoinに参加しました'
+  detail: 'あなたの自慢のブック、開いてくれるかな？'
+
+twitter_friend_joined:
+  title: '<strong>%{user}</strong>さんがPoinに参加しました'
+  detail: 'あなたの自慢のブック、開いてくれるかな？'
+
+editor_pick_updated:
+  title: "Depends on the content"
+  detail: 'Depends on the content'
+
+editor_picked_your_book:
+  title: "Depends on the content"
+  detail: 'Depends on the content'
+
+book_ranking_updated:
+  title: "Depends on the content"
+  detail: 'Depends on the content'
+
+inappropriate:
+  title: "Nil"
+  detail: 'Nil'
+
+inappropriate_page:
+  title: "Nil"
+  detail: 'Nil'
+
+inappropriate_book:
+  title: "Nil"
+  detail: 'Nil'
+
+delete_account_done:
+  title: "Nil"
+  detail: 'Nil'
+
+welcome_after_signed_up:
+  title: "Nil"
+  detail: 'Nil'

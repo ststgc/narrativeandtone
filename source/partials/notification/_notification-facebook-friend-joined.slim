@@ -1,0 +1,39 @@
+section.notification.facebook-friend-joined
+  .grid
+    .grid__item.one-third
+      h3.section-header
+        | Facebook friend joined
+      .extra__text
+        | #{data.notification.email.content.ja.extra_text}
+
+
+    .grid__item.one-third
+      .copy
+        h3.section-header-sub
+          | English
+        p
+          span.tag__type Push
+          | #{data.notification.push.en.en.notifications.facebook_friend_joined}
+        p
+          span.tag__type.tag__type--orange.tag__type--subject Email
+          | #{data.notification.email.subject.en.en.mailers.subject.facebook_friend_joined}
+          span.tag__type.tag__type--title
+          | #{data.notification.email.content.en.facebook_friend_joined.title}
+          span.tag__type.tag__type--detail
+          | #{data.notification.email.content.en.facebook_friend_joined.detail}
+
+
+    .grid__item.one-third
+      .copy
+        h3.section-header-sub
+          | Japanese
+        p
+          span.tag__type Push
+          | #{data.notification.push.ja.ja.notifications.facebook_friend_joined}
+        p
+          span.tag__type.tag__type--orange.tag__type--subject Email
+          | #{data.notification.email.subject.ja.ja.mailers.subject.facebook_friend_joined}
+          span.tag__type.tag__type--title
+          | #{data.notification.email.content.ja.facebook_friend_joined.title}
+          span.tag__type.tag__type--detail
+          | #{data.notification.email.content.ja.facebook_friend_joined.detail}

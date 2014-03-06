@@ -1,0 +1,33 @@
+section.notification.delete-account-done
+  .grid
+    .grid__item.one-third
+      h3.section-header
+        | Account deleted
+      .extra__text
+        | #{data.notification.email.content.ja.extra_text}
+
+
+    .grid__item.one-third
+      .copy
+        h3.section-header-sub
+          | English
+        p
+          span.tag__type.tag__type--orange.tag__type--subject Email
+          | #{data.notification.email.subject.en.en.mailers.subject.delete_account_done}
+          span.tag__type.tag__type--title
+          | #{data.notification.email.content.en.delete_account_done.title}
+          span.tag__type.tag__type--detail
+          | #{data.notification.email.content.en.delete_account_done.detail}
+
+
+    .grid__item.one-third
+      .copy
+        h3.section-header-sub
+          | Japanese
+        p
+          span.tag__type.tag__type--orange.tag__type--subject Email
+          | #{data.notification.email.subject.ja.ja.mailers.subject.delete_account_done}
+          span.tag__type.tag__type--title
+          | #{data.notification.email.content.ja.delete_account_done.title}
+          span.tag__type.tag__type--detail
+          | #{data.notification.email.content.ja.delete_account_done.detail}

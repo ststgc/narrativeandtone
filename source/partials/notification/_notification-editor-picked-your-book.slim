@@ -1,0 +1,39 @@
+section.notification.editor-picked-your-book
+  .grid
+    .grid__item.one-third
+      h3.section-header
+        | Editor picked your book
+      .extra__text
+        | #{data.notification.email.content.ja.extra_text}
+
+
+    .grid__item.one-third
+      .copy
+        h3.section-header-sub
+          | English
+        p
+          span.tag__type Push
+          | #{data.notification.push.en.en.notifications.editor_picked_your_book}
+        p
+          span.tag__type.tag__type--orange.tag__type--subject Email
+          | #{data.notification.email.subject.en.en.mailers.subject.editor_picked_your_book}
+          span.tag__type.tag__type--title
+          | #{data.notification.email.content.en.editor_picked_your_book.title}
+          span.tag__type.tag__type--detail
+          | #{data.notification.email.content.en.editor_picked_your_book.detail}
+
+
+    .grid__item.one-third
+      .copy
+        h3.section-header-sub
+          | Japanese
+        p
+          span.tag__type Push
+          | #{data.notification.push.ja.ja.notifications.editor_picked_your_book}
+        p
+          span.tag__type.tag__type--orange.tag__type--subject Email
+          | #{data.notification.email.subject.ja.ja.mailers.subject.editor_picked_your_book}
+          span.tag__type.tag__type--title
+          | #{data.notification.email.content.ja.editor_picked_your_book.title}
+          span.tag__type.tag__type--detail
+          | #{data.notification.email.content.ja.editor_picked_your_book.detail}

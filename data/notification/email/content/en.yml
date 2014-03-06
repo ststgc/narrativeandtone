@@ -16,17 +16,56 @@ user_followed:
   title: '<strong>%{user}</strong> %is now following you'
   detail: "Maybe you'll discover from <strong>%{user}</strong> too?"
 
+like_created:
+  title: '%{user} favorited your page %{page}'
+  detail: 'Way to go!'
 
-comment_created: '%{user} left a comment on %{page}'
-like_created: '%{user} favorited %{page}'
-book_subscribed: '%{user} subscribed to %{book}'
-inappropriate: 'Your page %{page} was flagged as inappropriate'
-delete_account_done: 'Your Poin account has been deleted'
-facebook_friend_joined: '%{user} has joined Poin'
-twitter_friend_joined: '%{user} has joined Poin'
-inappropriate_page: 'This page %{page} created by %{owner} was flagged as inappropriate'
-inappropriate_book: 'This book %{book} created by %{owner} was flagged as inappropriate'
-welcome_after_signed_up: 'Welcome to Poin'
-editor_pick_updated: "New \"Editor's Picks,\" updated. Check it out!"
-editor_picked_your_book: "Congrats! Your book is featured in \"Editor's Picks!\""
-book_ranking_updated: "Congrats! Your book has entered the \"Book Rankings!\""
+comment_created:
+  title: '%{user} left a comment on: %{page}'
+  detail: 'Reply, and let the conversation begin!'
+
+book_subscribed:
+  title: '%{user} subscribed your book: %{book}'
+  detail: '<strong>%{user}</strong> is curious. Write more?!'
+
+facebook_friend_joined:
+  title: '<strong>%{user}</strong> has joined on Poin!'
+  detail: 'Which of your books would <strong>%{user}</strong> enjoy the most?'
+
+twitter_friend_joined:
+  title: '<strong>%{user}</strong> has joined on Poin!'
+  detail: 'Which of your books would <strong>%{user}</strong> enjoy the most?'
+
+editor_pick_updated:
+  title: "Depends on the content"
+  detail: 'Depends on the content'
+
+editor_picked_your_book:
+  title: "Depends on the content"
+  detail: 'Depends on the content'
+
+book_ranking_updated:
+  title: "Depends on the content"
+  detail: 'Depends on the content'
+
+inappropriate:
+  title: "Nil"
+  detail: 'Nil'
+
+inappropriate_page:
+  title: "Nil"
+  detail: 'Nil'
+
+inappropriate_book:
+  title: "Nil"
+  detail: 'Nil'
+
+delete_account_done:
+  title: "Nil"
+  detail: 'Nil'
+
+welcome_after_signed_up:
+  title: "Nil"
+  detail: 'Nil'
+
+

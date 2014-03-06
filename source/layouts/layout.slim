@@ -38,7 +38,7 @@ head
     = data.ogp.title
 
   / Load your beautiful cascade style sheet & webfonts
-  == stylesheet_link_tag "all", "/assets/webfonts/ss-social-regular.css"
+  == stylesheet_link_tag "all"
 
   body class= "#{page_classes}"
     .wrapper
@@ -58,7 +58,7 @@ head
     / - - - - - - - - - - - - - - - - -
     / Load javascript files
     / - - - - - - - - - - - - - - - - -
-    == javascript_include_tag  "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", "/assets/webfonts/ss-social.js", "all"
+    == javascript_include_tag  "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", "all"
 
     / load local jquery when its not delivered from google.
     javascript:

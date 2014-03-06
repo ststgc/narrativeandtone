@@ -14,6 +14,7 @@
   +vendor(transform, translateX(-100px))
 
 
+
 .filter__lists
   // position
   position: relative
@@ -22,7 +23,6 @@
 
   li
     color: $white
-
 
 .filter
   +rem(padding, $bs-half $bs)
@@ -33,6 +33,18 @@
     background-color: darken($black, 10%)
 
   // Sub lists
+
+  ul
+    max-height: 0  // Folding sub lists
+    overflow: hidden
+    +vendor(transition-property, max-height)
+    +vendor(transition-duration, .3s)
+    +vendor(transition-timing-function, $easeInOutQuart)
+
+
+  &:hover ul
+    max-height: 2000px // Unfolding sub links
+
   li
     +rem(padding, $bs/4)
 
@@ -51,3 +63,40 @@
     li
       color: $black
 
+      &:hover
+        color: $white
+
+
+// animation
+.filter--animation
+  opacity: 0
+  -webkit-transform: translateX(-300px)
+  transform: translateX(-300px)
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s
+  transition: transform 0.3s, opacity 0.3s
+
+.js-sidebar--open
+  .filter--animation
+    opacity: 1
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+
+    &:nth-child(2)
+      -webkit-transition-delay: 0.03s
+      transition-delay: 0.03s
+
+    &:nth-child(3)
+      -webkit-transition-delay: 0.06s
+      transition-delay: 0.06s
+    &:nth-child(4)
+      -webkit-transition-delay: 0.09s
+      transition-delay: 0.09s
+    &:nth-child(5)
+      -webkit-transition-delay: 0.12s
+      transition-delay: 0.12s
+    &:nth-child(6)
+      -webkit-transition-delay: 0.15s
+      transition-delay: 0.15s
+    &:nth-child(7)
+      -webkit-transition-delay: 0.18s
+      transition-delay: 0.18s

@@ -4,18 +4,12 @@ $(document).ready ->
 
   # Toggle sidebar
   $('html').on "click", ->
-    b = $('body')
-    b.removeClass "js-sidebar--open"
-    b.animate
-      scrollTop: 0
-      "slow"
-    false
+    $('body').removeClass "js-sidebar--open"
 
   $('.js-sidebar__trigger').click (event) ->
     event.stopPropagation()
     $('body').toggleClass 'js-sidebar--open'
     return
-
 
   # mixitup.js
   $("#sort-target-container").mixitup
@@ -29,7 +23,6 @@ $(document).ready ->
       "fade"
     ]
   return
-
 
 # Add keyboard shortcut for toggle navigation.
 $(document).ready ->

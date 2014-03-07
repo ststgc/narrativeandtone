@@ -4,7 +4,12 @@ $(document).ready ->
 
   # Toggle sidebar
   $('html').on "click", ->
-    $('body').removeClass "js-sidebar--open"
+    b = $('body')
+    b.removeClass "js-sidebar--open"
+    b.animate
+      scrollTop: 0
+      "slow"
+    false
 
   $('.js-sidebar__trigger').click (event) ->
     event.stopPropagation()

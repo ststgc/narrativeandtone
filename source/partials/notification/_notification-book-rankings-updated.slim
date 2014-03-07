@@ -21,6 +21,8 @@ section.notification.book-rankings-updated
           | #{data.notification.email.content.en.book_ranking_updated.title}
           span.tag__type.tag__type--detail
           | #{data.notification.email.content.en.book_ranking_updated.detail}
+          span.tag__type.tag__type--header-image
+          = image_tag 'http://themandc.github.io/poin_webview/images/email/ranking/en-002.jpg'
 
 
     .grid__item.one-third
@@ -37,3 +39,5 @@ section.notification.book-rankings-updated
           | #{data.notification.email.content.ja.book_ranking_updated.title}
           span.tag__type.tag__type--detail
           | #{data.notification.email.content.ja.book_ranking_updated.detail}
+          span.tag__type.tag__type--header-image
+          = image_tag 'http://themandc.github.io/poin_webview/images/email/ranking/ja-002.jpg'

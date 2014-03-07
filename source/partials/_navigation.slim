@@ -10,11 +10,27 @@ nav.sidebar
       li.filter.filter--animation data-filter="readme"
         | Read me
 
-      li.filter.filter--animation data-filter="subtitle"
-        | Subtitle
 
-      li.filter.filter--animation data-filter="tagline"
-        | Tagline
+      // Static
+      li.filter.filter--animation data-filter="static"
+        | Static
+
+        ul
+          li.filter data-filter="static-title"
+            | Static title
+          li.filter data-filter="static-description"
+            | Static description
+
+
+      // App store
+      li.filter.filter--animation data-filter="appstore"
+        | App Store
+
+        ul
+          li.filter data-filter="app-name"
+            | App name
+          li.filter data-filter="app-description"
+            | App description
 
       // Share
       li.filter.filter--animation data-filter="share"

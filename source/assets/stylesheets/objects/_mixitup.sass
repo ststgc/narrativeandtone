@@ -13,42 +13,75 @@
   background-color: $white
   +vendor(transform, translateX(-100px))
 
-.btn__trigger--icon
+// Animated hamburger navigation icon
+// http://sarasoueidan.com/blog/navicon-transformicons/
+$hamburger-size:                2rem
+$hamburger-transition-duration: .3s
+
+.btn__hamburger
+  padding: $hamburger-size/2 $hamburger-size/4
+  +vendor(transition-duration, $hamburger-transition-duration)
+  user-select: none
+  border-radius: $hamburger-size/7
+
+  &:hover
+    +vendor(transition, 0)
+    opacity: .5
+
+// Due to Sass extend doesn't arrow extending in presudo elements
+// make mixin to create lines.
+=line
+  display: inline-block
+  width: $hamburger-size
+  height: $hamburger-size/7
+  background-color: $black
+  border-radius: $hamburger-size/14
+  +vendor(transition-duration, $hamburger-transition-duration)
+
+// Line itself
+.btn__hamburger--lines
+
+  // create middle line
+  +line
+  position: relative
+  top: -5px
+  right: 10px
+
+
+  // create upper and lower lines
+  &:after, &:before
+    +line
+    position: absolute
+    left: 0
+    content: ''
+    +vendor(transform-origin, $hamburger-size/14 center)
+
   &:before
-    content: '☰ '
-    position: absolute
-    left: -10px
-    bottom: 11px
-    font-weight: bold
-    opacity: 1
-    +vendor(transition-property, opacity)
-    +vendor(transition-duration, .3s)
-    +vendor(transition-timing-function, easeIn)
+    top: $hamburger-size/4
   &:after
-    content: '× '
-    position: absolute
-    left: -5px
-    bottom: 12px
-    opacity: 0
-    font-weight: bold
-    +vendor(transition-property, opacity)
-    +vendor(transition-duration, .3s)
-    +vendor(transition-timing-function, easeIn)
+    top: -$hamburger-size/4
 
+
+// Alter hamburger to close icon when sidebar is opened
 .js-sidebar--open
-  .btn__trigger--icon
+  .btn__hamburger--lines
+    background-color: transparent
+
+
+    &:before, &:after
+      +vendor(transform-origin, 50% 50%)
+      top: 0
+      width: $hamburger-size
+
+    // rotate the lines to form the x icon
     &:before
-      opacity: 0
+      +vendor(transform, rotate3d(0,0,1,45deg))
     &:after
-      content: '× '
-      position: absolute
-      left: -5px
-      bottom: 12px
-      opacity: 1
-      font-weight: bold
+      +vendor(transform, rotate3d(0,0,1,-45deg))
 
 
 
+// Filter lists container
 .filter__lists
   // position
   position: relative

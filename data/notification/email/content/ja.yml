@@ -49,6 +49,11 @@ book_ranking_updated:
   title: "Depends on the content"
   detail: 'Depends on the content'
 
+entered_book_ranking:
+  title: "Depends on the content"
+  detail: 'Depends on the content'
+
+
 inappropriate:
   title: "Nil"
   detail: 'Nil'

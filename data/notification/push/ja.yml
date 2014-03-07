@@ -11,7 +11,9 @@ ja:
     book_subscribed: '<b>%{user}</b> さんが「<b>%{book}</b>」を購読しました。'
     facebook_friend_joined: '<b>%{user}</b>さんがPoinに参加しました。'
     twitter_friend_joined: '<b>%{user}</b>さんがPoinに参加しました。'
+    connect_social_networks_after_signed_up: "FacebookかTwitterをつなぐと、友達があなたを見つけやすいです！（勝手にフィードへ投稿されません）"
     editor_pick_updated: '「オススメブック」が更新されました！気になるブックがないか見てみましょう！'
     editor_picked_your_book: 'おめでとうございます！ あなたのブックが「オススメブック」に掲載されました！'
-    book_ranking_updated: 'おめでとうございます！あなたのブックが「ブック・ランキング」にランクインしました！'
-    connect_social_networks_after_signed_up: "FacebookかTwitterをつなぐと、友達があなたを見つけやすいです！（勝手にフィードへ投稿されません）"
+    entered_book_ranking: 'おめでとうございます！あなたのブックが「ブック・ランキング」にランクインしました！'
+    book_ranking_updated: "「ランキング」が更新されました！気になるブックがないか見てみましょう！"
+    poin_updated: 'Poinがアップデートされました。App Storeから最新版をアップデートしましょう。'

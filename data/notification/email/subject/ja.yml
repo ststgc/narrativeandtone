@@ -1,5 +1,8 @@
 # encoding: utf-8
 ja:
+  i18n:
+    language:
+      name: 'Japanese'
   mailers:
     subject:
       activation_instructions: "Picky Pocket会員登録確認メール。"
@@ -13,13 +16,16 @@ ja:
       twitter_friend_joined: '%{user}さんがPoinに参加しました'
       inappropriate_page: '%{owner}が投稿したページ %{page} が、不適切なページとして報告されました'
       inappropriate_book: '%{owner}が作成した %{book} が、不適切なブックとして報告されました'
+      inappropriate_user: '%{user} が、不適切なブックとして報告されました'
       book_shared_to_see: '%{user}さんが %{book} をあなたに公開しました'
       book_shared_to_add: '%{user}さんが %{book} へ投稿できるように招待しました'
       user_followed: '%{user}さんがあなたをフォローしました'
       welcome_after_signed_up: 'Poinにご登録ありがとうございます'
       editor_pick_updated: '「オススメブック」が更新されました！気になるブックがないか見てみましょう！'
       editor_picked_your_book: 'おめでとうございます！ あなたのブックが「オススメブック」に掲載されました！'
-      book_ranking_updated: 'おめでとうございます！あなたのブックが「ブック・ランキング」にランクインしました！'
+      entered_book_ranking: 'おめでとうございます！あなたのブックが「ブック・ランキング」にランクインしました！'
+      book_ranking_updated: "「ランキング」が更新されました！気になるブックがないか見てみましょう！"
+      poin_updated: 'Poinがアップデートされました。App Storeから最新版をアップデートしましょう。'
     content:
       poin_team: 'Poinチーム'
       slogan: 'Your journal for rating everything.'
@@ -38,8 +44,8 @@ ja:
   details:
     written_by: '投稿者'
     contributor:
-      one: '人'
-      other: '人'
+      one: '+ 1 人'
+      other: '+ %{count} 人'
     page:
       one: 'ページ'
       other: 'ページ'
@@ -49,9 +55,7 @@ ja:
     subscriber:
       one: '購読者'
       other: '購読者'
-    following:
-      one: 'フォロー'
-      other: 'フォロー'
+    following: 'フォロー'
     follower:
       one: 'フォロワー'
       other: 'フォロワー'
@@ -89,5 +93,5 @@ ja:
     day_update_privacy: '2013年10月7日制定'
     day_update_terms: '2013年10月7日制定'
     firm_name: 'M&C株式会社'
-    title_landing: 'Poin - 想いをつづる<br>写真日記'
-    description_landing: 'ちょっとした発見や、自分の時間を大切にする人たちの、「みつける」日記アプリです。'
+    title_landing: 'Poin - みつける、日記'
+    description_landing: 'ちょっとした発見や、自分の時間を大切にする人たちの日記アプリです。'

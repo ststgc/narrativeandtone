@@ -13,6 +13,40 @@
   background-color: $white
   +vendor(transform, translateX(-100px))
 
+.btn__trigger--icon
+  &:before
+    content: '☰ '
+    position: absolute
+    left: -10px
+    bottom: 11px
+    font-weight: bold
+    opacity: 1
+    +vendor(transition-property, opacity)
+    +vendor(transition-duration, .3s)
+    +vendor(transition-timing-function, easeIn)
+  &:after
+    content: '× '
+    position: absolute
+    left: -5px
+    bottom: 12px
+    opacity: 0
+    font-weight: bold
+    +vendor(transition-property, opacity)
+    +vendor(transition-duration, .3s)
+    +vendor(transition-timing-function, easeIn)
+
+.js-sidebar--open
+  .btn__trigger--icon
+    &:before
+      opacity: 0
+    &:after
+      content: '× '
+      position: absolute
+      left: -5px
+      bottom: 12px
+      opacity: 1
+      font-weight: bold
+
 
 
 .filter__lists

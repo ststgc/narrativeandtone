@@ -61,11 +61,11 @@ inappropriate_book:
   detail: 'Nil'
 
 delete_account_done:
-  title: "Nil"
-  detail: 'Nil'
+  title: "Your account has been deleted"
+  detail: "This email was sent to <strong>#{email-address}</strong> because you requested and confirmed to delete your account on Poin. This email confirms that your account has been deleted. We're sad to see you go, and regret that we could not create a product that you find useful.<br><br>The Poin Team"
 
 welcome_after_signed_up:
-  title: "Nil"
-  detail: 'Nil'
+  title: "Welcome to Poin!"
+  detail: 'Poin is a photo diary app that transforms your photos & moments into beautiful stories.<br><br>You can follow users, subscribe to "books" and share your thoughts on anything from everyday moments, cool discoveries, to your hobbies and interests, all from your iPhone. You can connect Facebook / Twitter from "Settings" in the app to make finding friends easier.<br><br>Check out the "Discover" section to see what everyone is writing about!<br><br>Enjoy : )'
 
 

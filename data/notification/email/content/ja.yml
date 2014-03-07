@@ -62,9 +62,9 @@ inappropriate_book:
   detail: 'Nil'
 
 delete_account_done:
-  title: "Nil"
-  detail: 'Nil'
+  title: "アカウントの削除が完了しました"
+  detail: 'このメールは、あなたのアカウント削除の確認の為に<strong>#{email-address}</strong>に送信されています。アカウントの削除が完了しました。ありがとうございました。<br><br>Poinチーム'
 
 welcome_after_signed_up:
-  title: "Nil"
-  detail: 'Nil'
+  title: "ようこそ、Poinへ！"
+  detail: 'Poinは、ちょっとした発見や、自分の時間を大切にする人たちの <br>「想いをつづる」写真日記です。<br><br>Poinは、1人でも楽しめるようにデザインされてますが、みんなと使うと、さらに楽しいアプリになります。アプリ内の「設定」から、Facebook / Twitterをつなぐと、友達があなたを見つけやすくなるので、是非試してみてください : )<br><br>まずは、アプリ内の「みつける」から、みんなの日記を見てみませんか？<br><br>それでは、Poinをお楽しみ下さい！'

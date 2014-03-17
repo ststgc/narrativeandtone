@@ -13,8 +13,8 @@ book:
   extra_text: "- My book<br>- Other's book"
   mine:
     email:
-      en: Check out my “<strong>大学二年生</strong>” book made with Poin.<br><br><strong>私の全力の一年。</strong><br><br>See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}
-      ja: 私の「<strong>大学二年生</strong>」ブックを共有します。<br><br><strong>私の全力の一年。</strong><br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br>#{Email footer}
+      en: Check out my “<strong>大学二年生</strong>” book on Poin.<br><br><strong>私の全力の一年。</strong><br><br>See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}
+      ja: 私の「<strong>大学二年生</strong>」ブック、見てみて！<br><br><strong>私の全力の一年。</strong><br><br>Webでみる:<br>http://www.poin.co/b/22feszzAuxn?sc=ebf<br><br>Poinアプリでみる:<br>poin://b/22feszzAuxn<br><br>---<br><br>#{Email footer}
 
     twitter:
       en: &book-mine-twitter-en
@@ -47,7 +47,7 @@ page:
   mine:
     email:
       en: "Check out my “<strong>あしもと</strong>” on Poin.<br><br>Book title: <strong>‰ fashion</strong><br>By: <strong>m o m o</strong><br>See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
-      ja: "Check out my “<strong>あしもと</strong>” on Poin.<br><br>Book title: <strong>‰ fashion</strong><br>By: <strong>m o m o</strong><br>See on Web:<br>http://www.poin.co/b/35Zexp?sc=eb<br><br>Open Poin:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
+      ja: "私の「<strong>あしもと</strong>」、Poinで見てみて！<br>ブック: <strong>‰ fashion</strong><br>作者: <strong>m o m o</strong><br>Webでみる:<br>http://www.poin.co/b/35Zexp?sc=eb<br>Poinアプリでみる:<br>poin://b/35Zexp<br><br>---<br><br>#{Email footer}"
 
     twitter:
       en: &page-mine-twitter-en

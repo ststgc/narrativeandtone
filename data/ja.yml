@@ -18,7 +18,7 @@ ja:
       inappropriate_book: '%{owner}が作成した %{book} が、不適切なブックとして報告されました'
       inappropriate_user: '%{user} が、不適切なブックとして報告されました'
       book_shared_to_see: '%{user}さんが %{book} をあなたに限定公開しました'
-      book_shared_to_add: '%{user}さんが %{book} へ投稿できるように招待しました'
+      book_shared_to_add: '%{user}さんが %{book} へ投稿できる招待がきました'
       user_followed: '%{user}さんがあなたをフォローしました'
       welcome_after_signed_up: 'Poinにご登録ありがとうございます'
       editor_pick_updated: '「オススメブック」が更新！ステキなブックをみつけてみよう！'

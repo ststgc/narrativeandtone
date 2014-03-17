@@ -2,7 +2,7 @@
 ja:
   notifications:
     book_created: '<b>%{user}</b>さんが「<b>%{book}</b>」をはじめました。'
-    book_shared_to_add: '<b>%{user}</b>さんが「<b>%{book}</b>」へ投稿できるように招待しました。'
+    book_shared_to_add: '<b>%{user}</b>さんが「<b>%{book}</b>」へ投稿できる招待がきました。'
     book_shared_to_see: '<b>%{user}</b>さんが「<b>%{book}</b>」をあなたに限定公開しました。'
     user_followed: '<b>%{user}</b>さんがあなたをフォローしました。'
     page_created: '<b>%{user}</b>さんが「<b>%{page}</b>」を作成しました。'

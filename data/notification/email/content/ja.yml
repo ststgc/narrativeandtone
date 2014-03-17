@@ -6,7 +6,7 @@ book_created:
   detail: 'これ、おもしろいかな？'
 
 book_shared_to_add:
-  title: '<strong>%{user}</strong>さんのブックへ投稿できるように招待されました'
+  title: '<strong>%{user}</strong>さんのブックへ投稿できる招待がきました'
   detail: '一緒に、ステキなブックを創りましょう。'
 
 book_shared_to_see:

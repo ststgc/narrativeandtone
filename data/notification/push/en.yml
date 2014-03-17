@@ -11,9 +11,9 @@ en:
     book_subscribed: '<b>%{user}</b> subscribed to <b>%{book}</b>.'
     facebook_friend_joined: '<b>%{user}</b> has joined Poin.'
     twitter_friend_joined: '<b>%{user}</b> has joined Poin.'
-    connect_social_networks_after_signed_up: "Connect Facebook / Twitter so friends can find you. (We won't share to your feed)"
-    editor_pick_updated: "New \"Editor's Picks,\" updated. Check it out!"
-    editor_picked_your_book: "Congrats! Your book is featured in \"Editor's Picks!\""
-    entered_book_ranking: "Congrats! Your book has entered the \"Book Rankings!\""
-    book_ranking_updated: "New \"Book Rankings,\" updated. Check it out!"
+    connect_social_networks_after_signed_up: "Connect Facebook / Twitter so friends can find you. (We won’t share to your feed)"
+    editor_pick_updated: "New “Editor’s Picks,” updated. Check it out!"
+    editor_picked_your_book: "Congrats! Your book is featured in “Editor’s Picks!”"
+    entered_book_ranking: "Congrats! Your book has entered the “Book Rankings!”"
+    book_ranking_updated: "“Book Rankings” updated, Check it out!"
     poin_updated: 'Poin has been updated. Please update latest version from App Store.'

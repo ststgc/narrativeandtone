@@ -2,7 +2,7 @@
 extra_text: 'EmailのTitle, Detailは手動メンテナンス'
 
 book_created:
-  title: '<strong>%{user}</strong>さんが新しいブックを作りました'
+  title: '<strong>%{user}</strong>さんが新しいブックをはじめました'
   detail: 'これ、おもしろいかな？'
 
 book_shared_to_add:
@@ -10,7 +10,7 @@ book_shared_to_add:
   detail: '一緒に、ステキなブックを創りましょう。'
 
 book_shared_to_see:
-  title: '<strong>%{user}</strong>さんがプライベートなブックをあなたに公開しました'
+  title: '<strong>%{user}</strong>さんがプライベートなブックをあなたに限定公開しました'
   detail: '<strong>%{user}</strong>さんが招待した人だけが見られるブックです。'
 
 user_followed:
@@ -19,7 +19,7 @@ user_followed:
 
 like_created:
   title: '<strong>%{user}</strong>さんが<strong>%{page}</strong>をお気に入りしました'
-  detail: '気に入ってもらえましたね。'
+  detail: '気に入ってもらえましたね ：）'
 
 comment_created:
   title: '<strong>%{user}</strong>さんが<strong>%{page}</strong>にコメントしました'
@@ -27,14 +27,14 @@ comment_created:
 
 book_subscribed:
   title: '<strong>%{user}</strong>さんが<strong>%{book}</strong>を購読しました'
-  detail: '<strong>%{user}</strong>さん、このブックの今後が気になってるみたいです。'
+  detail: '<strong>%{user}</strong>さん、このブックの今後が気になってるみたいです ：）'
 
 facebook_friend_joined:
-  title: '<strong>%{user}</strong>さんがPoinに参加しました'
+  title: '<strong>%{user}</strong>さんがPoinをはじめました'
   detail: 'あなたの自慢のブック、開いてくれるかな？'
 
 twitter_friend_joined:
-  title: '<strong>%{user}</strong>さんがPoinに参加しました'
+  title: '<strong>%{user}</strong>さんがPoinをはじめました'
   detail: 'あなたの自慢のブック、開いてくれるかな？'
 
 editor_pick_updated:
@@ -72,4 +72,4 @@ delete_account_done:
 
 welcome_after_signed_up:
   title: "ようこそ、Poinへ！"
-  detail: 'Poinは、ちょっとした発見や、自分の時間を大切にする人たちの <br>「想いをつづる」写真日記です。<br><br>Poinは、1人でも楽しめるようにデザインされてますが、みんなと使うと、さらに楽しいアプリになります。アプリ内の「設定」から、Facebook / Twitterをつなぐと、友達があなたを見つけやすくなるので、是非試してみてください : )<br><br>まずは、アプリ内の「みつける」から、みんなの日記を見てみませんか？<br><br>それでは、Poinをお楽しみ下さい！'
+  detail: 'Poinは、ちょっとした発見や、自分の時間を大切にする人たちの <br>「想いをつづる」写真日記です。<br><br>Poinは、1人でも楽しめますが、みんなと使うと、さらに楽しい。アプリ内の「設定」から、Facebook / Twitterをつなぐと、友達があなたを見つけやすいので、試してみてください ：）<br><br>まずは、アプリ内の「みつける」から、みんなの日記を見てみませんか？<br><br>Poinをお楽しみください！'

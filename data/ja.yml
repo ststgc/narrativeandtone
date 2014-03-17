@@ -6,25 +6,25 @@ ja:
   mailers:
     subject:
       activation_instructions: "Picky Pocket会員登録確認メール。"
-      book_created: '%{user}さんが %{book} ブックを作成しました '
+      book_created: '%{user}さんが %{book} ブックをはじめました'
       comment_created: '%{user}さんが %{page} にコメントしました'
-      like_created: '%{user}さんが %{page} をお気に入りに登録しました'
+      like_created: '%{user}さんが %{page} をお気に入りに！'
       book_subscribed: '%{user}さんがあなたの %{book} ブックを購読しました'
       inappropriate: 'Your page %{page} was flagged as inappropriate'
       delete_account_done: 'あなたのPoinアカウントは削除されました'
-      facebook_friend_joined: '%{user}さんがPoinに参加しました'
-      twitter_friend_joined: '%{user}さんがPoinに参加しました'
+      facebook_friend_joined: '%{user}さんがPoinをはじめました'
+      twitter_friend_joined: '%{user}さんがPoinをはじめました'
       inappropriate_page: '%{owner}が投稿したページ %{page} が、不適切なページとして報告されました'
       inappropriate_book: '%{owner}が作成した %{book} が、不適切なブックとして報告されました'
       inappropriate_user: '%{user} が、不適切なブックとして報告されました'
-      book_shared_to_see: '%{user}さんが %{book} をあなたに公開しました'
+      book_shared_to_see: '%{user}さんが %{book} をあなたに限定公開しました'
       book_shared_to_add: '%{user}さんが %{book} へ投稿できるように招待しました'
       user_followed: '%{user}さんがあなたをフォローしました'
       welcome_after_signed_up: 'Poinにご登録ありがとうございます'
-      editor_pick_updated: '「オススメブック」が更新されました！気になるブックがないか見てみましょう！'
-      editor_picked_your_book: 'おめでとうございます！ あなたのブックが「オススメブック」に掲載されました！'
-      entered_book_ranking: 'おめでとうございます！あなたのブックが「ブック・ランキング」にランクインしました！'
-      book_ranking_updated: "「ランキング」が更新されました！気になるブックがないか見てみましょう！"
+      editor_pick_updated: '「オススメブック」が更新！ステキなブックをみつけてみよう！'
+      editor_picked_your_book: 'おめでとうございます！ あなたのブックが「オススメブック」に選ばれました ：）'
+      entered_book_ranking: 'おめでとうございます！あなたのブックが「ランキング」にランクインしました ：）'
+      book_ranking_updated: "「ランキング」が更新！気になるブックがないか見てみましょう！"
       poin_updated: 'Poinがアップデートされました。App Storeから最新版をアップデートしましょう。'
     content:
       poin_team: 'Poinチーム'

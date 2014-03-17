@@ -6,15 +6,15 @@ book_created:
 
 book_shared_to_add:
   title: '<strong>%{user}</strong> invited you to add pages to <strong>%{book}</strong>'
-  detail: "Let's make this book special, together."
+  detail: "Let’s make this book special, together."
 
 book_shared_to_see:
   title: '<strong>%{user}</strong> shared a private book <strong>%{book}</strong> with you'
   detail: 'Only people invited by <strong>%{user}</strong> can see this book.'
 
 user_followed:
-  title: '<strong>%{user}</strong> %is now following you'
-  detail: "Maybe you'll discover from <strong>%{user}</strong> too?"
+  title: '<strong>%{user}</strong> is now following you'
+  detail: "Maybe you’ll discover from <strong>%{user}</strong> too?"
 
 like_created:
   title: '%{user} favorited your page %{page}'
@@ -66,10 +66,9 @@ inappropriate_book:
 
 delete_account_done:
   title: "Your account has been deleted"
-  detail: "This email was sent to <strong>#{email-address}</strong> because you requested and confirmed to delete your account on Poin. This email confirms that your account has been deleted. We're sad to see you go, and regret that we could not create a product that you find useful.<br><br>The Poin Team"
+  detail: "This email was sent to <strong>#{email-address}</strong> because you requested and confirmed to delete your account on Poin. This email confirms that your account has been deleted. We’re sad to see you go, and regret that we could not create a product that you find useful.<br><br>The Poin Team"
 
 welcome_after_signed_up:
   title: "Welcome to Poin!"
-  detail: 'Poin is a photo diary app that transforms your photos & moments into beautiful stories.<br><br>You can follow users, subscribe to "books" and share your thoughts on anything from everyday moments, cool discoveries, to your hobbies and interests, all from your iPhone. You can connect Facebook / Twitter from "Settings" in the app to make finding friends easier.<br><br>Check out the "Discover" section to see what everyone is writing about!<br><br>Enjoy : )'
-
+  detail: 'Poin is a photo diary app that transforms your photos & moments into beautiful stories.<br><br>You can follow users, subscribe to “books” and share your thoughts on anything from everyday moments, cool discoveries, to your hobbies and interests, all from your iPhone. You can connect Facebook / Twitter from “Settings” in the app to make finding friends easier.<br><br>Check out the “Discover” section to see what everyone is writing about!<br><br>Enjoy : )'
 

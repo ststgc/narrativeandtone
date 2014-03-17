@@ -21,11 +21,11 @@ en:
       book_shared_to_see: '%{user} shared a private book %{book} with you'
       book_shared_to_add: '%{user} invited you to add pages to %{book}'
       welcome_after_signed_up: 'Welcome to Poin'
-      editor_pick_updated: "New \"Editor's Picks,\" updated. Check it out!"
-      editor_picked_your_book: "Congrats! Your book is featured in \"Editor's Picks!\""
-      entered_book_ranking: "Congrats! Your book has entered the \"Book Rankings!\""
-      book_ranking_updated: "New \"Book Rankings,\" updated. Check it out!"
-      poin_updated: 'Poin has been updated. Please update latest version from App Store.'
+      editor_pick_updated: "“Editor’s Picks,” updated. Check it out!"
+      editor_picked_your_book: "Congrats! Your book is featured in “Editor’s Picks!”"
+      entered_book_ranking: "Congrats! Your book has entered the “Book Rankings!”"
+      book_ranking_updated: "“Book Rankings,” updated. Check it out!"
+      poin_updated: 'Poin has been updated. Please update to the latest version from the App Store.'
     content:
       poin_team: 'The Poin Team'
       slogan: 'Your journal for rating everything.'

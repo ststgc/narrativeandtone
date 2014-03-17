@@ -18,7 +18,7 @@ book:
 
     twitter:
       en: &book-mine-twitter-en
-        "Check out my \"<strong>大学二年生</strong>\" book on #Poin"
+        "Check out my “<strong>大学二年生</strong>” book on #Poin"
       ja: &book-mine-twitter-ja
         "私の「<strong>大学二年生</strong>」ブック、見てみて！"
 

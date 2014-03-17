@@ -70,5 +70,5 @@ delete_account_done:
 
 welcome_after_signed_up:
   title: "Welcome to Poin!"
-  detail: 'Poin is a photo diary app that transforms your photos & moments into beautiful stories.<br><br>You can follow users, subscribe to “books” and share your thoughts on anything from everyday moments, cool discoveries, to your hobbies and interests, all from your iPhone. You can connect Facebook / Twitter from “Settings” in the app to make finding friends easier.<br><br>Check out the “Discover” section to see what everyone is writing about!<br><br>Enjoy : )'
+  detail: 'Poin is a photo diary app that transforms your photos & moments into beautiful stories.<br><br>You can follow users, subscribe to “books” and share your thoughts on anything from everyday moments, cool discoveries, to your hobbies and interests.<br><br>Check out the “Discover” section to see what everyone is writing about!<br><br>Enjoy : )'
 
